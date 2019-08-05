@@ -1,0 +1,38 @@
+Pod::Spec.new do |s|
+s.name = 'AVVPlayer-MARVIN'
+s.module_name = 'AVVPlayer'
+s.version = '0.0.5'
+s.swift_version = '4.2'
+s.summary = 'AVVPlayer-MARVIN'
+s.license = {'type'=>'Sportradar', 'file'=>'SR_AVVPlayer_iOS-0.0.1/LICENSE.txt'}
+s.authors = {'Mobile Development Team'=>'dev.apps@laola1.at'}
+s.homepage = 'https://mdp.sportradar.com'
+s.requires_arc = true
+s.framework = 'SystemConfiguration','MobileCoreServices'
+s.source = { :http => 'https://appsdata.laola1.at/data/testing/frameworks/AVVPlayer-MARVIN/AVVPlayer-MARVIN-iOS-0.0.1.zip'}
+#s.source = { :git => 'git@gitlab.sportradar.ag:vie-mobile/ios/avvplayer-marvin-ios.git', :tag => '0.0.6_magenta_15_tracking' }
+# s.resource_bundle = {
+#    'ag.sportradar.AVVPlayer' => [
+#    'AVVPlayer-MARVIN/**/*.xcassets',
+#    'AVVPlayer-MARVIN/**/*.ttf',
+#    'AVVPlayer-MARVIN/**/*.strings'
+#  ]
+# }
+#s.source_files = [
+#    'AVVPlayer-MARVIN/**/*.swift'
+#  ]
+
+s.platform = :ios, '11.0'
+s.ios.deployment_target  = '11.0'
+s.libraries = 'z'
+s.static_framework = true
+s.vendored_frameworks  = 'AVVPlayer-MARVIN-0.0.1/AVVPlayer.framework'
+s.dependency 'Alamofire'
+s.dependency 'RxSwift'
+s.dependency 'RxCocoa'
+s.dependency 'SwiftyXMLParser'
+s.dependency 'google-cast-sdk', '~> 4.3'
+s.dependency 'SDWebImage'
+s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.9'
+end
+
