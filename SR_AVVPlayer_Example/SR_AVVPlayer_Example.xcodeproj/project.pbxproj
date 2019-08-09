@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71FA42EB22FBF09000E1E626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA42EA22FBF09000E1E626 /* AppDelegate.swift */; };
+		71FA42ED22FBF09000E1E626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA42EC22FBF09000E1E626 /* ViewController.swift */; };
+		71FA42F222FBF09100E1E626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FA42F122FBF09100E1E626 /* Assets.xcassets */; };
+		71FA42FD22FBF0E300E1E626 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 71FA42FC22FBF0E300E1E626 /* Podfile */; };
+		71FA42FF22FBF67400E1E626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FA42FE22FBF67400E1E626 /* LaunchScreen.storyboard */; };
+		71FA430122FC25B200E1E626 /* CustomPlayerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA430022FC25B200E1E626 /* CustomPlayerOverlay.swift */; };
+		C5FE94BB13AD779880EAC4C1 /* Pods_SR_AVVPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FF5C5BC37CFE637285A475 /* Pods_SR_AVVPlayer_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45FF5C5BC37CFE637285A475 /* Pods_SR_AVVPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SR_AVVPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FA42E722FBF09000E1E626 /* SR_AVVPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SR_AVVPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FA42EA22FBF09000E1E626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71FA42EC22FBF09000E1E626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71FA42F122FBF09100E1E626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71FA42F622FBF09100E1E626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FA42FC22FBF0E300E1E626 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71FA42FE22FBF67400E1E626 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71FA430022FC25B200E1E626 /* CustomPlayerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayerOverlay.swift; sourceTree = "<group>"; };
+		8E09A798C966D7ECFD89BB08 /* Pods-SR_AVVPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SR_AVVPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-SR_AVVPlayer_Example/Pods-SR_AVVPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE5129E53E2C9A13871C9988 /* Pods-SR_AVVPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SR_AVVPlayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-SR_AVVPlayer_Example/Pods-SR_AVVPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71FA42E422FBF09000E1E626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FE94BB13AD779880EAC4C1 /* Pods_SR_AVVPlayer_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71FA42DE22FBF09000E1E626 = {
+			isa = PBXGroup;
+			children = (
+				71FA42E922FBF09000E1E626 /* SR_AVVPlayer_Example */,
+				71FA42E822FBF09000E1E626 /* Products */,
+				936276FD069FD09B2924BB90 /* Pods */,
+				D2247F3A222A781F658FDDF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71FA42E822FBF09000E1E626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71FA42E722FBF09000E1E626 /* SR_AVVPlayer_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71FA42E922FBF09000E1E626 /* SR_AVVPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				71FA42FC22FBF0E300E1E626 /* Podfile */,
+				71FA42EA22FBF09000E1E626 /* AppDelegate.swift */,
+				71FA42EC22FBF09000E1E626 /* ViewController.swift */,
+				71FA430022FC25B200E1E626 /* CustomPlayerOverlay.swift */,
+				71FA42FE22FBF67400E1E626 /* LaunchScreen.storyboard */,
+				71FA42F122FBF09100E1E626 /* Assets.xcassets */,
+				71FA42F622FBF09100E1E626 /* Info.plist */,
+			);
+			path = SR_AVVPlayer_Example;
+			sourceTree = "<group>";
+		};
+		936276FD069FD09B2924BB90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE5129E53E2C9A13871C9988 /* Pods-SR_AVVPlayer_Example.debug.xcconfig */,
+				8E09A798C966D7ECFD89BB08 /* Pods-SR_AVVPlayer_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2247F3A222A781F658FDDF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45FF5C5BC37CFE637285A475 /* Pods_SR_AVVPlayer_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71FA42E622FBF09000E1E626 /* SR_AVVPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71FA42F922FBF09100E1E626 /* Build configuration list for PBXNativeTarget "SR_AVVPlayer_Example" */;
+			buildPhases = (
+				C0B05A2D8470EB17A638696B /* [CP] Check Pods Manifest.lock */,
+				71FA42E322FBF09000E1E626 /* Sources */,
+				71FA42E422FBF09000E1E626 /* Frameworks */,
+				71FA42E522FBF09000E1E626 /* Resources */,
+				9933D7E18BBEAE61B6EC4EEA /* [CP] Embed Pods Frameworks */,
+				D58238A5BF7FC342A09194D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SR_AVVPlayer_Example;
+			productName = SR_AVVPlayer_Example;
+			productReference = 71FA42E722FBF09000E1E626 /* SR_AVVPlayer_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71FA42DF22FBF09000E1E626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Sportradar;
+				TargetAttributes = {
+					71FA42E622FBF09000E1E626 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 71FA42E222FBF09000E1E626 /* Build configuration list for PBXProject "SR_AVVPlayer_Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71FA42DE22FBF09000E1E626;
+			productRefGroup = 71FA42E822FBF09000E1E626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71FA42E622FBF09000E1E626 /* SR_AVVPlayer_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71FA42E522FBF09000E1E626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FA42FF22FBF67400E1E626 /* LaunchScreen.storyboard in Resources */,
+				71FA42F222FBF09100E1E626 /* Assets.xcassets in Resources */,
+				71FA42FD22FBF0E300E1E626 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9933D7E18BBEAE61B6EC4EEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SR_AVVPlayer_Example/Pods-SR_AVVPlayer_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SR_AVVPlayer_Example/Pods-SR_AVVPlayer_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SR_AVVPlayer_Example/Pods-SR_AVVPlayer_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B05A2D8470EB17A638696B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SR_AVVPlayer_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58238A5BF7FC342A09194D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SR_AVVPlayer_Example/Pods-SR_AVVPlayer_Example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SR_AVVPlayer_Example/Pods-SR_AVVPlayer_Example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SR_AVVPlayer_Example/Pods-SR_AVVPlayer_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71FA42E322FBF09000E1E626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FA42ED22FBF09000E1E626 /* ViewController.swift in Sources */,
+				71FA430122FC25B200E1E626 /* CustomPlayerOverlay.swift in Sources */,
+				71FA42EB22FBF09000E1E626 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71FA42F722FBF09100E1E626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71FA42F822FBF09100E1E626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71FA42FA22FBF09100E1E626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5129E53E2C9A13871C9988 /* Pods-SR_AVVPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SR_AVVPlayer_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ag.sportradar.avvplayerdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71FA42FB22FBF09100E1E626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E09A798C966D7ECFD89BB08 /* Pods-SR_AVVPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SR_AVVPlayer_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ag.sportradar.avvplayerdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71FA42E222FBF09000E1E626 /* Build configuration list for PBXProject "SR_AVVPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FA42F722FBF09100E1E626 /* Debug */,
+				71FA42F822FBF09100E1E626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71FA42F922FBF09100E1E626 /* Build configuration list for PBXNativeTarget "SR_AVVPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FA42FA22FBF09100E1E626 /* Debug */,
+				71FA42FB22FBF09100E1E626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71FA42DF22FBF09000E1E626 /* Project object */;
+}

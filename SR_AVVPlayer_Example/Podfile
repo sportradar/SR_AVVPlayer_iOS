@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/sportradar/SR_AVVPlayer_iOS.git'
+
+platform :ios, '10.0'
+use_frameworks!
+
+target 'SR_AVVPlayer_Example' do
+
+#ImageCache
+pod 'AVVPlayer-MARVIN', '~> 0.0.6'
+end
+
