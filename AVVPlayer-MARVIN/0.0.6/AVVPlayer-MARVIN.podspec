@@ -17,7 +17,6 @@ s.ios.deployment_target  = '10.0'
 s.libraries = 'z'
 s.static_framework = true
 s.vendored_frameworks  = 'AVVPlayer-MARVIN-0.0.6/AVVPlayer.framework'
-s.dependency 'Alamofire', '~> 5.0.0-beta'
 s.dependency 'RxSwift'
 s.dependency 'RxCocoa'
 s.dependency 'SwiftyXMLParser'
