@@ -17,11 +17,12 @@ s.ios.deployment_target  = '10.0'
 s.libraries = 'z'
 s.static_framework = true
 s.vendored_frameworks  = 'AVVPlayer-MARVIN-0.0.6/AVVPlayer.framework'
-s.dependency 'RxSwift'
-s.dependency 'RxCocoa'
-s.dependency 'SwiftyXMLParser'
-s.dependency 'google-cast-sdk', '~> 4.3'
-s.dependency 'SDWebImage'
-s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.9'
+s.dependency 'RxSwift', '5.0.0'
+s.dependency 'RxCocoa', 'RxCocoa', '5.0.0'
+s.dependency 'SwiftyXMLParser', '5.0.0'
+s.dependency 'google-cast-sdk', '4.4.5'
+s.dependency 'SDWebImage', '5.0.4'
+s.dependency 'GoogleAds-IMA-iOS-SDK', '3.9.0'
+
 end
 
