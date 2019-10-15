@@ -18,7 +18,7 @@ s.libraries = 'z'
 s.static_framework = true
 s.vendored_frameworks  = 'AVVPlayer-MARVIN-0.0.6/AVVPlayer.framework'
 s.dependency 'RxSwift', '5.0.0'
-s.dependency 'RxCocoa', 'RxCocoa', '5.0.0'
+s.dependency 'RxCocoa', '5.0.0'
 s.dependency 'SwiftyXMLParser', '5.0.0'
 s.dependency 'google-cast-sdk', '4.4.5'
 s.dependency 'SDWebImage', '5.0.4'
