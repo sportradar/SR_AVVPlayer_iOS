@@ -9,7 +9,7 @@ s.authors = {'Mobile Development Team'=>'dev.apps@laola1.at'}
 s.homepage = 'https://mdp.sportradar.com'
 s.requires_arc = true
 s.framework = 'SystemConfiguration','MobileCoreServices'
-s.source = { :http => 'https://bianconeri11.online/Sportradar/6/AVVPlayer-MARVIN-iOS-0.0.7_1.zip'}
+s.source = { :http => 'https://bianconeri11.online/Sportradar/6/AVVPlayer-MARVIN-iOS-0.0.7_4.zip'}
 
 
 s.platform = :ios, '10.0'
