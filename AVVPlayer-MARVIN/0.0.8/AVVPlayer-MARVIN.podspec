@@ -20,8 +20,8 @@ s.vendored_frameworks  = 'AVVPlayer-MARVIN-0.0.8/AVVPlayer.framework'
 s.dependency 'RxSwift', '5.0.0'
 s.dependency 'RxCocoa', '5.0.0'
 s.dependency 'SwiftyXMLParser', '5.0.0'
-s.dependency 'google-cast-sdk', '4.4.5'
 s.dependency 'SDWebImage', '5.0.4'
 s.dependency 'GoogleAds-IMA-iOS-SDK', '3.9.0'
+s.dependency 'Protobuf', '~> 3.11'
 
 end
