@@ -16,7 +16,7 @@ s.platform = :ios, '10.0'
 s.ios.deployment_target  = '10.0'
 s.libraries = 'z'
 s.static_framework = true
-s.vendored_frameworks  = 'AVVPlayer-MARVIN-0.0.8/AVVPlayer.framework'
+s.vendored_frameworks  = 'AVVPlayer-MARVIN-0.0.9/AVVPlayer.framework'
 s.dependency 'RxSwift', '5.0.0'
 s.dependency 'RxCocoa', '5.0.0'
 s.dependency 'SwiftyXMLParser', '5.0.0'
