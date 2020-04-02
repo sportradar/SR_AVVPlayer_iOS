@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = 'AVVPlayer-MARVIN'
 s.module_name = 'AVVPlayer'
-s.version = '0.0.9'
+s.version = '0.9.0'
 s.swift_version = '5.0'
 s.summary = 'AVVPlayer-MARVIN'
 s.license = {'type'=>'Sportradar', 'file'=>'SR_AVVPlayer_iOS-0.0.1/LICENSE.txt'}
