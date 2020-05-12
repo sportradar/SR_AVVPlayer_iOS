@@ -23,6 +23,8 @@ import AVVPlayer
 
 public class CustomPlayerOverlay: UIView, AVVPlayerControlLayer
 {
+    public var playerSizeClass: AVVSizeClass = AVVSizeClass(size: .zero)
+    
     public var relatedPlayer: AVVPlayer!
     
     public var layerView: UIView!
