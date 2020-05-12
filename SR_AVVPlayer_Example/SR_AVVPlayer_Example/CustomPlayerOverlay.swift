@@ -21,14 +21,16 @@ import AVVPlayer
     follow this process for all controls you want to provide on your custom Player Overlay
 */
 
-public class CustomPlayerOverlay: UIView, AVVPlayerControlOverlay
+public class CustomPlayerOverlay: UIView, AVVPlayerControlLayer
 {
+    public var relatedPlayer: AVVPlayer!
+    
     public var layerView: UIView!
     {
         return self
     }
     
-    public var seekControlsScheme : AVVPlayerSeekControlsScheme? {
+    public var seekControlsScheme : AVVPlayerControlsScheme? {
         didSet {
             let titleTextAttributes : [NSAttributedString.Key : Any] = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 11) as Any]
             seekBackButton.setAttributedTitle(NSAttributedString(string: "\(seekControlsScheme?.seekButtonSeconds ?? 0)", attributes: titleTextAttributes), for: .normal)
@@ -53,7 +55,7 @@ public class CustomPlayerOverlay: UIView, AVVPlayerControlOverlay
     private let livestreamOffsetLabel = UILabel()
     private let seekBackButton = AVVMultistateButton(type: .system)
     private let seekForwardButton = AVVMultistateButton(type: .system)
-    private let loadingView = UIActivityIndicatorView()
+    private let loadingView = AVVLoadingViewDefault()
 
     //external events stackview
     private var externalEventStackView = UIStackView()

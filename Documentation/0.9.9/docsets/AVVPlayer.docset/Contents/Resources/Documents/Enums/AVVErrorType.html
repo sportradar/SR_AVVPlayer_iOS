@@ -1,0 +1,2570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AVVErrorType Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/AVVErrorType" class="dashAnchor"></a>
+    <a title="AVVErrorType Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">AVVPlayer Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">AVVPlayer Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AVVErrorType Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../1-getting-started.html">1) Getting Started</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../2-external-config.html">2) External Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../3-public-api.html">3) Public API</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../4-custom-layer.html">4) Custom Layer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../5-player-rotation.html">5) Player Rotation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../6-sportradar-ott.html">6) Sportradar OTT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../7-chromecast.html">7) Chromecast</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AVVAdLayer.html">AVVAdLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVAdvertisement.html">AVVAdvertisement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVCastButton.html">AVVCastButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVChromeCast.html">AVVChromeCast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVChromeCastConfig.html">AVVChromeCastConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVChromeCastConnection.html">AVVChromeCastConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVChromeCastDefaultDialogController.html">AVVChromeCastDefaultDialogController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVChromeCastDefaultDialogView.html">AVVChromeCastDefaultDialogView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVChromeCastDeviceListener.html">AVVChromeCastDeviceListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVChromeCastWidgetController.html">AVVChromeCastWidgetController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVChromeCastWidgetSettings.html">AVVChromeCastWidgetSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVDRM.html">AVVDRM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVDVR.html">AVVDVR</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVDefaultErrorLayer.html">AVVDefaultErrorLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVDefaultPreviewLayer.html">AVVDefaultPreviewLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVEndscreen.html">AVVEndscreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVHeartbeat.html">AVVHeartbeat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVLoadingViewDefault.html">AVVLoadingViewDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVLogger.html">AVVLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVMediaSession.html">AVVMediaSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVMultistateButton.html">AVVMultistateButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVMultistateLabel.html">AVVMultistateLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlaybackOptions.html">AVVPlaybackOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayer.html">AVVPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayer/ModeSettings.html">– ModeSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayer/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayer/InitializingState.html">– InitializingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayerBuilder.html">AVVPlayerBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayerConfig.html">AVVPlayerConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayerConfig/Status.html">– Status</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayerControlBinding.html">AVVPlayerControlBinding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayerControlLayer_Trial.html">AVVPlayerControlLayer_Trial</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayerControlLayer_Trial/DeviceTraitStatus.html">– DeviceTraitStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9AVVPlayer0A22ControlsPositionConfigC">AVVPlayerControlsPositionConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayerControlsScheme.html">AVVPlayerControlsScheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayerLayerView.html">AVVPlayerLayerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9AVVPlayer0A12LayoutConfigC">AVVPlayerLayoutConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVPlayerRotation.html">AVVPlayerRotation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVSizeClass.html">AVVSizeClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVSizeClass/SmartType.html">– SmartType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVSlider.html">AVVSlider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVStreamQuality.html">AVVStreamQuality</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AVVURLAsset.html">AVVURLAsset</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AVVAdSlotType.html">AVVAdSlotType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVAdvertisementClient.html">AVVAdvertisementClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVAdvertisementState.html">AVVAdvertisementState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVAdvertisementTrigger.html">AVVAdvertisementTrigger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVAlignment.html">AVVAlignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVChromeCastExpandedControllerSettings.html">AVVChromeCastExpandedControllerSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVChromeCastMiniControllerSettings.html">AVVChromeCastMiniControllerSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVChromeCastWidgetState.html">AVVChromeCastWidgetState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVErrorType.html">AVVErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVFeatureType.html">AVVFeatureType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVHeartbeatType.html">AVVHeartbeatType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVLayerType.html">AVVLayerType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVMediaSessionOutputChannel.html">AVVMediaSessionOutputChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVMediaSessionPlayingState.html">AVVMediaSessionPlayingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVMediaSessionState.html">AVVMediaSessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVMediaSessionStreamType.html">AVVMediaSessionStreamType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVMultistateButtonState.html">AVVMultistateButtonState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVPlayerConfigTheme.html">AVVPlayerConfigTheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVPlayerControlType.html">AVVPlayerControlType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVPlayerControlType_research.html">AVVPlayerControlType_research</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVPlayerModeState.html">AVVPlayerModeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVURLAssetState.html">AVVURLAssetState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AVVUrlRequestMethod.html">AVVUrlRequestMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PlayerLaneState.html">PlayerLaneState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/BinaryInteger.html">BinaryInteger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CALayer.html">CALayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Collection.html">Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FloatingPoint.html">FloatingPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/ObservableType.html">ObservableType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Reactive.html">Reactive</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDeviceOrientation.html">UIDeviceOrientation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIInterfaceOrientation.html">UIInterfaceOrientation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIInterfaceOrientationMask.html">UIInterfaceOrientationMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVAdvertisementProvider.html">AVVAdvertisementProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVAdvertisementProviderDelegate.html">AVVAdvertisementProviderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVAnalytics.html">AVVAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastConnectionDelegate.html">AVVChromeCastConnectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastDeviceListenerDelegate.html">AVVChromeCastDeviceListenerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastDialogController.html">AVVChromeCastDialogController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastDialogProtocol.html">AVVChromeCastDialogProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastDialogView.html">AVVChromeCastDialogView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastExpandedController.html">AVVChromeCastExpandedController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastExpandedControllerDelegate.html">AVVChromeCastExpandedControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastMiniController.html">AVVChromeCastMiniController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastMiniControllerDelegate.html">AVVChromeCastMiniControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVChromeCastWidgetControllerDelegate.html">AVVChromeCastWidgetControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVDRMProvider.html">AVVDRMProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVEndscreenDelegate.html">AVVEndscreenDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVErrorLayer.html">AVVErrorLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVFeature.html">AVVFeature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVFeatureLayer.html">AVVFeatureLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVLoadingView.html">AVVLoadingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVMediaPlaybackStreamData.html">AVVMediaPlaybackStreamData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVMediaSessionObserver.html">AVVMediaSessionObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVMultistateLabelDelegate.html">AVVMultistateLabelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVObservable.html">AVVObservable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVPlayerConfigConvertible.html">AVVPlayerConfigConvertible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVPlayerConfigDelegate.html">AVVPlayerConfigDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVPlayerControlLayer.html">AVVPlayerControlLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVPlayerCustomLayerDelegate.html">AVVPlayerCustomLayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVPlayerLayer.html">AVVPlayerLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:9AVVPlayer0A12ModeSettingsP">AVVPlayerModeSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVPlayerObserver.html">AVVPlayerObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVPlayerRotationRule.html">AVVPlayerRotationRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVPreviewLayer.html">AVVPreviewLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVPreviewLayerDelegate.html">AVVPreviewLayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVStreamUrlProvider.html">AVVStreamUrlProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AVVURLConvertible.html">AVVURLConvertible</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AVVAdvertisementItem.html">AVVAdvertisementItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AVVAnalyticsConfig.html">AVVAnalyticsConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AVVError.html">AVVError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AVVFeatureConfig.html">AVVFeatureConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9AVVPlayer18AVVMediaAudioTrackV">AVVMediaAudioTrack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AVVMetaData.html">AVVMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AVVPlayerColors.html">AVVPlayerColors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AVVPlayerSetup.html">AVVPlayerSetup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AVVStreamUrlProviderInput.html">AVVStreamUrlProviderInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9AVVPlayer23LivestreamSeekableRangeV">LivestreamSeekableRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ObserverToken.html">ObserverToken</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9AVVPlayer16AVVEndscreenItema">AVVEndscreenItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9AVVPlayer14AVVErrorActiona">AVVErrorAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9AVVPlayer0A7Controla">AVVPlayerControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9AVVPlayer0A17ModeSettingsTupela">AVVPlayerModeSettingsTupel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9AVVPlayer29AVVStreamUrlProviderInputDataa">AVVStreamUrlProviderInputData</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AVVErrorType</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">AVVErrorType</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO15configLoadErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/configLoadError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO15configLoadErroryA2CmF">configLoadError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">configLoadError</span> <span class="o">=</span> <span class="mi">100</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO11configErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/configError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO11configErroryA2CmF">configError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">configError</span> <span class="o">=</span> <span class="mi">101</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO15licenseKeyErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/licenseKeyError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO15licenseKeyErroryA2CmF">licenseKeyError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">licenseKeyError</span> <span class="o">=</span> <span class="mi">102</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO22licenseKeyNotValidatedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/licenseKeyNotValidated" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO22licenseKeyNotValidatedyA2CmF">licenseKeyNotValidated</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">licenseKeyNotValidated</span> <span class="o">=</span> <span class="mi">103</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO21streamAccessLoadErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessLoadError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO21streamAccessLoadErroryA2CmF">streamAccessLoadError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessLoadError</span> <span class="o">=</span> <span class="mi">200</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO33streamNotAllowedOnMultipleDevicesyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamNotAllowedOnMultipleDevices" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO33streamNotAllowedOnMultipleDevicesyA2CmF">streamNotAllowedOnMultipleDevices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamNotAllowedOnMultipleDevices</span> <span class="o">=</span> <span class="mi">201</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO24streamNotAllowedOnMobileyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamNotAllowedOnMobile" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO24streamNotAllowedOnMobileyA2CmF">streamNotAllowedOnMobile</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamNotAllowedOnMobile</span> <span class="o">=</span> <span class="mi">202</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO17streamAccessErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO17streamAccessErroryA2CmF">streamAccessError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessError</span> <span class="o">=</span> <span class="mi">203</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO28streamAccessResourceNotFoundyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessResourceNotFound" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO28streamAccessResourceNotFoundyA2CmF">streamAccessResourceNotFound</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessResourceNotFound</span> <span class="o">=</span> <span class="mi">204</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO28streamAccessMethodNotAllowedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessMethodNotAllowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO28streamAccessMethodNotAllowedyA2CmF">streamAccessMethodNotAllowed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessMethodNotAllowed</span> <span class="o">=</span> <span class="mi">205</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO28streamAccessApplicationErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessApplicationError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO28streamAccessApplicationErroryA2CmF">streamAccessApplicationError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessApplicationError</span> <span class="o">=</span> <span class="mi">206</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO22streamAccessBadRequestyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessBadRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO22streamAccessBadRequestyA2CmF">streamAccessBadRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessBadRequest</span> <span class="o">=</span> <span class="mi">207</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO30streamAccessStreamNotAvailableyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessStreamNotAvailable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO30streamAccessStreamNotAvailableyA2CmF">streamAccessStreamNotAvailable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessStreamNotAvailable</span> <span class="o">=</span> <span class="mi">208</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO20streamAccessGeoBlockyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessGeoBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO20streamAccessGeoBlockyA2CmF">streamAccessGeoBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessGeoBlock</span> <span class="o">=</span> <span class="mi">209</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO26streamAccessStreamNotFoundyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessStreamNotFound" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO26streamAccessStreamNotFoundyA2CmF">streamAccessStreamNotFound</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessStreamNotFound</span> <span class="o">=</span> <span class="mi">210</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO28streamAccessConfigInputErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamAccessConfigInputError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO28streamAccessConfigInputErroryA2CmF">streamAccessConfigInputError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamAccessConfigInputError</span> <span class="o">=</span> <span class="mi">220</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO018akamaiStreamAccessE13DataLoadErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/akamaiStreamAccessStreamDataLoadError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO018akamaiStreamAccessE13DataLoadErroryA2CmF">akamaiStreamAccessStreamDataLoadError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">akamaiStreamAccessStreamDataLoadError</span> <span class="o">=</span> <span class="mi">300</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO31akamaiStreamAccessGeoBlockErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/akamaiStreamAccessGeoBlockError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO31akamaiStreamAccessGeoBlockErroryA2CmF">akamaiStreamAccessGeoBlockError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">akamaiStreamAccessGeoBlockError</span> <span class="o">=</span> <span class="mi">301</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO36akamaiStreamAccessTokenNotValidErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/akamaiStreamAccessTokenNotValidError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO36akamaiStreamAccessTokenNotValidErroryA2CmF">akamaiStreamAccessTokenNotValidError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">akamaiStreamAccessTokenNotValidError</span> <span class="o">=</span> <span class="mi">302</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO018akamaiStreamAccessE17NotAvailableErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/akamaiStreamAccessStreamNotAvailableError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO018akamaiStreamAccessE17NotAvailableErroryA2CmF">akamaiStreamAccessStreamNotAvailableError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">akamaiStreamAccessStreamNotAvailableError</span> <span class="o">=</span> <span class="mi">303</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO35akamaiStreamAccessTokenExpiredErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/akamaiStreamAccessTokenExpiredError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO35akamaiStreamAccessTokenExpiredErroryA2CmF">akamaiStreamAccessTokenExpiredError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">akamaiStreamAccessTokenExpiredError</span> <span class="o">=</span> <span class="mi">304</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO018akamaiStreamAccessE12RemovedErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/akamaiStreamAccessStreamRemovedError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO018akamaiStreamAccessE12RemovedErroryA2CmF">akamaiStreamAccessStreamRemovedError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">akamaiStreamAccessStreamRemovedError</span> <span class="o">=</span> <span class="mi">306</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO018akamaiStreamAccessE9DataErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/akamaiStreamAccessStreamDataError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO018akamaiStreamAccessE9DataErroryA2CmF">akamaiStreamAccessStreamDataError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">akamaiStreamAccessStreamDataError</span> <span class="o">=</span> <span class="mi">307</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO18heartbeatInitErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/heartbeatInitError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO18heartbeatInitErroryA2CmF">heartbeatInitError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">heartbeatInitError</span> <span class="o">=</span> <span class="mi">500</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO24heartbeatValidationErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/heartbeatValidationError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO24heartbeatValidationErroryA2CmF">heartbeatValidationError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">heartbeatValidationError</span> <span class="o">=</span> <span class="mi">501</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO23heartbeatInvalidInitUrlyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/heartbeatInvalidInitUrl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO23heartbeatInvalidInitUrlyA2CmF">heartbeatInvalidInitUrl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">heartbeatInvalidInitUrl</span> <span class="o">=</span> <span class="mi">502</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO29heartbeatInvalidValidationUrlyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/heartbeatInvalidValidationUrl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO29heartbeatInvalidValidationUrlyA2CmF">heartbeatInvalidValidationUrl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">heartbeatInvalidValidationUrl</span> <span class="o">=</span> <span class="mi">503</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO34heartbeatExternalSessionTokenErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/heartbeatExternalSessionTokenError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO34heartbeatExternalSessionTokenErroryA2CmF">heartbeatExternalSessionTokenError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">heartbeatExternalSessionTokenError</span> <span class="o">=</span> <span class="mi">504</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO32mediaSessionFailedToPreloadAssetyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionFailedToPreloadAsset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO32mediaSessionFailedToPreloadAssetyA2CmF">mediaSessionFailedToPreloadAsset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionFailedToPreloadAsset</span> <span class="o">=</span> <span class="mi">1000</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO28mediaSessionNoLongerPlayableyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionNoLongerPlayable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO28mediaSessionNoLongerPlayableyA2CmF">mediaSessionNoLongerPlayable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionNoLongerPlayable</span> <span class="o">=</span> <span class="mi">1001</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO25mediaSessionFailedToParseyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionFailedToParse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO25mediaSessionFailedToParseyA2CmF">mediaSessionFailedToParse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionFailedToParse</span> <span class="o">=</span> <span class="mi">1002</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO45mediaSessionAirPlayControllerRequiresInternetyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionAirPlayControllerRequiresInternet" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO45mediaSessionAirPlayControllerRequiresInternetyA2CmF">mediaSessionAirPlayControllerRequiresInternet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionAirPlayControllerRequiresInternet</span> <span class="o">=</span> <span class="mi">1003</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO43mediaSessionAriPlayReceiverRequiresInternetyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionAriPlayReceiverRequiresInternet" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO43mediaSessionAriPlayReceiverRequiresInternetyA2CmF">mediaSessionAriPlayReceiverRequiresInternet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionAriPlayReceiverRequiresInternet</span> <span class="o">=</span> <span class="mi">1004</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO38mediaSessionApplicationIsNotAuthorizedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionApplicationIsNotAuthorized" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO38mediaSessionApplicationIsNotAuthorizedyA2CmF">mediaSessionApplicationIsNotAuthorized</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionApplicationIsNotAuthorized</span> <span class="o">=</span> <span class="mi">1005</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO49mediaSessionCompositionTrackSegmentsNotContiguousyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionCompositionTrackSegmentsNotContiguous" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO49mediaSessionCompositionTrackSegmentsNotContiguousyA2CmF">mediaSessionCompositionTrackSegmentsNotContiguous</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionCompositionTrackSegmentsNotContiguous</span> <span class="o">=</span> <span class="mi">1006</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO34mediaSessionContentIsNotAuthorizedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionContentIsNotAuthorized" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO34mediaSessionContentIsNotAuthorizedyA2CmF">mediaSessionContentIsNotAuthorized</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionContentIsNotAuthorized</span> <span class="o">=</span> <span class="mi">1007</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO30mediaSessionContentIsProtectedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionContentIsProtected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO30mediaSessionContentIsProtectedyA2CmF">mediaSessionContentIsProtected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionContentIsProtected</span> <span class="o">=</span> <span class="mi">1008</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO24mediaSessionDecodeFailedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionDecodeFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO24mediaSessionDecodeFailedyA2CmF">mediaSessionDecodeFailed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionDecodeFailed</span> <span class="o">=</span> <span class="mi">1009</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO27mediaSessionDecoderNotFoundyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionDecoderNotFound" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO27mediaSessionDecoderNotFoundyA2CmF">mediaSessionDecoderNotFound</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionDecoderNotFound</span> <span class="o">=</span> <span class="mi">1010</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO41mediaSessionDecoderTemporarilyUnavailableyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionDecoderTemporarilyUnavailable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO41mediaSessionDecoderTemporarilyUnavailableyA2CmF">mediaSessionDecoderTemporarilyUnavailable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionDecoderTemporarilyUnavailable</span> <span class="o">=</span> <span class="mi">1011</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO56mediaSessionDeviceLockedForConfigurationByAnotherProcessyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionDeviceLockedForConfigurationByAnotherProcess" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO56mediaSessionDeviceLockedForConfigurationByAnotherProcessyA2CmF">mediaSessionDeviceLockedForConfigurationByAnotherProcess</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionDeviceLockedForConfigurationByAnotherProcess</span> <span class="o">=</span> <span class="mi">1012</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO27mediaSessionEncoderNotFoundyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionEncoderNotFound" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO27mediaSessionEncoderNotFoundyA2CmF">mediaSessionEncoderNotFound</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionEncoderNotFound</span> <span class="o">=</span> <span class="mi">1013</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO41mediaSessionEncoderTemporarilyUnavailableyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionEncoderTemporarilyUnavailable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO41mediaSessionEncoderTemporarilyUnavailableyA2CmF">mediaSessionEncoderTemporarilyUnavailable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionEncoderTemporarilyUnavailable</span> <span class="o">=</span> <span class="mi">1014</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO48mediaSessionExternalPlaybackNotSupportedForAssetyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionExternalPlaybackNotSupportedForAsset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO48mediaSessionExternalPlaybackNotSupportedForAssetyA2CmF">mediaSessionExternalPlaybackNotSupportedForAsset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionExternalPlaybackNotSupportedForAsset</span> <span class="o">=</span> <span class="mi">1015</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO33mediaSessionFailedToLoadMediaDatayA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionFailedToLoadMediaData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO33mediaSessionFailedToLoadMediaDatayA2CmF">mediaSessionFailedToLoadMediaData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionFailedToLoadMediaData</span> <span class="o">=</span> <span class="mi">1016</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO29mediaSessionFileFailedToParseyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionFileFailedToParse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO29mediaSessionFileFailedToParseyA2CmF">mediaSessionFileFailedToParse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionFileFailedToParse</span> <span class="o">=</span> <span class="mi">1017</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO35mediaSessionFileFormatNotRecognizedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionFileFormatNotRecognized" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO35mediaSessionFileFormatNotRecognizedyA2CmF">mediaSessionFileFormatNotRecognized</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionFileFormatNotRecognized</span> <span class="o">=</span> <span class="mi">1018</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO016mediaSessionFileC30DoesNotSupportSampleReferencesyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionFileTypeDoesNotSupportSampleReferences" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO016mediaSessionFileC30DoesNotSupportSampleReferencesyA2CmF">mediaSessionFileTypeDoesNotSupportSampleReferences</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionFileTypeDoesNotSupportSampleReferences</span> <span class="o">=</span> <span class="mi">1019</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO29mediaSessionFormatUnsupportedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionFormatUnsupported" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO29mediaSessionFormatUnsupportedyA2CmF">mediaSessionFormatUnsupported</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionFormatUnsupported</span> <span class="o">=</span> <span class="mi">1020</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO29mediaSessionIncompatibleAssetyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionIncompatibleAsset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO29mediaSessionIncompatibleAssetyA2CmF">mediaSessionIncompatibleAsset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionIncompatibleAsset</span> <span class="o">=</span> <span class="mi">1021</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO50mediaSessionInvalidCompositionTrackSegmentDurationyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionInvalidCompositionTrackSegmentDuration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO50mediaSessionInvalidCompositionTrackSegmentDurationyA2CmF">mediaSessionInvalidCompositionTrackSegmentDuration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionInvalidCompositionTrackSegmentDuration</span> <span class="o">=</span> <span class="mi">1022</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO56mediaSessionInvalidCompositionTrackSegmentSourceDurationyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionInvalidCompositionTrackSegmentSourceDuration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO56mediaSessionInvalidCompositionTrackSegmentSourceDurationyA2CmF">mediaSessionInvalidCompositionTrackSegmentSourceDuration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionInvalidCompositionTrackSegmentSourceDuration</span> <span class="o">=</span> <span class="mi">1023</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO57mediaSessionInvalidCompositionTrackSegmentSourceStartTimeyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionInvalidCompositionTrackSegmentSourceStartTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO57mediaSessionInvalidCompositionTrackSegmentSourceStartTimeyA2CmF">mediaSessionInvalidCompositionTrackSegmentSourceStartTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionInvalidCompositionTrackSegmentSourceStartTime</span> <span class="o">=</span> <span class="mi">1024</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO41mediaSessionInvalidOutputURLPathExtensionyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionInvalidOutputURLPathExtension" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO41mediaSessionInvalidOutputURLPathExtensionyA2CmF">mediaSessionInvalidOutputURLPathExtension</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionInvalidOutputURLPathExtension</span> <span class="o">=</span> <span class="mi">1025</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO30mediaSessionInvalidSourceMediayA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionInvalidSourceMedia" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO30mediaSessionInvalidSourceMediayA2CmF">mediaSessionInvalidSourceMedia</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionInvalidSourceMedia</span> <span class="o">=</span> <span class="mi">1026</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO35mediaSessionInvalidVideoCompositionyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionInvalidVideoComposition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO35mediaSessionInvalidVideoCompositionyA2CmF">mediaSessionInvalidVideoComposition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionInvalidVideoComposition</span> <span class="o">=</span> <span class="mi">1027</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO26mediaSessionMalformedDepthyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionMalformedDepth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO26mediaSessionMalformedDepthyA2CmF">mediaSessionMalformedDepth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionMalformedDepth</span> <span class="o">=</span> <span class="mi">1028</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO34mediaSessionMediaServicesWereResetyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionMediaServicesWereReset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO34mediaSessionMediaServicesWereResetyA2CmF">mediaSessionMediaServicesWereReset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionMediaServicesWereReset</span> <span class="o">=</span> <span class="mi">1029</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO25mediaSessionNoImageAtTimeyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionNoImageAtTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO25mediaSessionNoImageAtTimeyA2CmF">mediaSessionNoImageAtTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionNoImageAtTime</span> <span class="o">=</span> <span class="mi">1030</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO52mediaSessionNoCompatibleAlternatesForExternalDisplayyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionNoCompatibleAlternatesForExternalDisplay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO52mediaSessionNoCompatibleAlternatesForExternalDisplayyA2CmF">mediaSessionNoCompatibleAlternatesForExternalDisplay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionNoCompatibleAlternatesForExternalDisplay</span> <span class="o">=</span> <span class="mi">1031</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO25mediaSessionNoSourceTrackyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionNoSourceTrack" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO25mediaSessionNoSourceTrackyA2CmF">mediaSessionNoSourceTrack</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionNoSourceTrack</span> <span class="o">=</span> <span class="mi">1032</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO23mediaSessionOutOfMemoryyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionOutOfMemory" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO23mediaSessionOutOfMemoryyA2CmF">mediaSessionOutOfMemory</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionOutOfMemory</span> <span class="o">=</span> <span class="mi">1033</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO032mediaSessionReferenceForbiddenByF6PolicyyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionReferenceForbiddenByReferencePolicy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO032mediaSessionReferenceForbiddenByF6PolicyyA2CmF">mediaSessionReferenceForbiddenByReferencePolicy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionReferenceForbiddenByReferencePolicy</span> <span class="o">=</span> <span class="mi">1034</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO39mediaSessionServerIncorrectlyConfiguredyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionServerIncorrectlyConfigured" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO39mediaSessionServerIncorrectlyConfiguredyA2CmF">mediaSessionServerIncorrectlyConfigured</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionServerIncorrectlyConfigured</span> <span class="o">=</span> <span class="mi">1035</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO32mediaSessionUndecodableMediaDatayA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionUndecodableMediaData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO32mediaSessionUndecodableMediaDatayA2CmF">mediaSessionUndecodableMediaData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionUndecodableMediaData</span> <span class="o">=</span> <span class="mi">1036</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO37mediaSessionUnsupportedOutputSettingsyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionUnsupportedOutputSettings" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO37mediaSessionUnsupportedOutputSettingsyA2CmF">mediaSessionUnsupportedOutputSettings</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionUnsupportedOutputSettings</span> <span class="o">=</span> <span class="mi">1037</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO33mediaSessionVideoCompositorFailedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionVideoCompositorFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO33mediaSessionVideoCompositorFailedyA2CmF">mediaSessionVideoCompositorFailed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionVideoCompositorFailed</span> <span class="o">=</span> <span class="mi">1038</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO34mediaSessionFailedToLoadPlayerItemyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionFailedToLoadPlayerItem" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO34mediaSessionFailedToLoadPlayerItemyA2CmF">mediaSessionFailedToLoadPlayerItem</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionFailedToLoadPlayerItem</span> <span class="o">=</span> <span class="mi">1039</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO19mediaSessionUnknownyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaSessionUnknown" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO19mediaSessionUnknownyA2CmF">mediaSessionUnknown</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaSessionUnknown</span> <span class="o">=</span> <span class="mi">1050</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO032streamUrlProviderUnexpectedInputC0yA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamUrlProviderUnexpectedInputType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO032streamUrlProviderUnexpectedInputC0yA2CmF">streamUrlProviderUnexpectedInputType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamUrlProviderUnexpectedInputType</span> <span class="o">=</span> <span class="mi">1100</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO037streamUrlProviderErrorProvidingStreamE0yA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/streamUrlProviderErrorProvidingStreamUrl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO037streamUrlProviderErrorProvidingStreamE0yA2CmF">streamUrlProviderErrorProvidingStreamUrl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">streamUrlProviderErrorProvidingStreamUrl</span> <span class="o">=</span> <span class="mi">1101</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO15chromecastErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/chromecastError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO15chromecastErroryA2CmF">chromecastError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">chromecastError</span> <span class="o">=</span> <span class="mi">1200</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO28chromecastErrorCreateSessionyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/chromecastErrorCreateSession" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO28chromecastErrorCreateSessionyA2CmF">chromecastErrorCreateSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">chromecastErrorCreateSession</span> <span class="o">=</span> <span class="mi">1201</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO29chromeCastErrorSessionExpiredyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/chromeCastErrorSessionExpired" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO29chromeCastErrorSessionExpiredyA2CmF">chromeCastErrorSessionExpired</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">chromeCastErrorSessionExpired</span> <span class="o">=</span> <span class="mi">1202</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO5errorAA0B0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/error" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO5errorAA0B0Vvp">error</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">error</span><span class="p">:</span> <span class="kt"><a href="../Structs/AVVError.html">AVVError</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9AVVPlayer12AVVErrorTypeO5error4with12internalCode20technicalDescription6actionAA0B0VSSSg_SiSgAKSS5title_yycAHtSgtF"></a>
+                    <a name="//apple_ref/swift/Method/error(with:internalCode:technicalDescription:action:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9AVVPlayer12AVVErrorTypeO5error4with12internalCode20technicalDescription6actionAA0B0VSSSg_SiSgAKSS5title_yycAHtSgtF">error(with:internalCode:technicalDescription:action:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">error</span><span class="p">(</span><span class="n">with</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">internalCode</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">technicalDescription</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:9AVVPlayer14AVVErrorActiona">AVVErrorAction</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/AVVError.html">AVVError</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://mdp.sportradar.com" target="_blank" rel="external">Sportradar Media Services GmbH</a>. All rights reserved. (Last updated: 2020-05-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

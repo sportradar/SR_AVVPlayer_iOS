@@ -13,11 +13,11 @@
 		71FA42FD22FBF0E300E1E626 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 71FA42FC22FBF0E300E1E626 /* Podfile */; };
 		71FA42FF22FBF67400E1E626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FA42FE22FBF67400E1E626 /* LaunchScreen.storyboard */; };
 		71FA430122FC25B200E1E626 /* CustomPlayerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA430022FC25B200E1E626 /* CustomPlayerOverlay.swift */; };
-		C5FE94BB13AD779880EAC4C1 /* Pods_SR_AVVPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FF5C5BC37CFE637285A475 /* Pods_SR_AVVPlayer_Example.framework */; };
+		ECC54656B0F497C0FA3A953D /* Pods_SR_AVVPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2167592CBB71CF6380D3D101 /* Pods_SR_AVVPlayer_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45FF5C5BC37CFE637285A475 /* Pods_SR_AVVPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SR_AVVPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2167592CBB71CF6380D3D101 /* Pods_SR_AVVPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SR_AVVPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FA42E722FBF09000E1E626 /* SR_AVVPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SR_AVVPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FA42EA22FBF09000E1E626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71FA42EC22FBF09000E1E626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5FE94BB13AD779880EAC4C1 /* Pods_SR_AVVPlayer_Example.framework in Frameworks */,
+				ECC54656B0F497C0FA3A953D /* Pods_SR_AVVPlayer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		D2247F3A222A781F658FDDF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				45FF5C5BC37CFE637285A475 /* Pods_SR_AVVPlayer_Example.framework */,
+				2167592CBB71CF6380D3D101 /* Pods_SR_AVVPlayer_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -355,13 +355,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU637U8GLC;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = SR_AVVPlayer_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ag.sportradar.avvplayerdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,7 +377,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU637U8GLC;
 				INFOPLIST_FILE = SR_AVVPlayer_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -395,7 +401,7 @@
 				71FA42F822FBF09100E1E626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		71FA42F922FBF09100E1E626 /* Build configuration list for PBXNativeTarget "SR_AVVPlayer_Example" */ = {
 			isa = XCConfigurationList;
@@ -404,7 +410,7 @@
 				71FA42FB22FBF09100E1E626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

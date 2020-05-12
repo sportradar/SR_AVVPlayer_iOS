@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let viewContoller = ViewController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         window?.rootViewController = viewContoller
         window?.frame = UIScreen.main.bounds
         window?.makeKeyAndVisible()
@@ -31,7 +30,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("AVVPlayerSetup -> error: \(avvError.debugDescription)")
             if avvError == nil
             {
-                self.viewContoller.setupVideoPlayer()
+                DispatchQueue.main.asyncAfter(deadline: .now()+3) {
+                    self.viewContoller.setupVideoPlayer()
+                }
             }
         }
         return true

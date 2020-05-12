@@ -22,6 +22,12 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>Launchscreen</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>$(PRODUCT_NAME) wants to use Bluetooth</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>$(PRODUCT_NAME) wants to use Bluetooth</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Needs Microphone for Google Chromecast</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
