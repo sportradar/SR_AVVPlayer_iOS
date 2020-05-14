@@ -2928,49 +2928,49 @@
     },
     {
       "file": "/Users/andreas.becher/Documents/MobileApps/iOS/AVVPlayer-MARVIN-iOS/AVVPlayer-MARVIN/AVVPlayerConfig/AVVEndscreen/AVVEndscreenLayerDefault.swift",
-      "line": 206,
+      "line": 207,
       "symbol": "AVVEndscreenLayerDefault.collectionView(_:numberOfItemsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/andreas.becher/Documents/MobileApps/iOS/AVVPlayer-MARVIN-iOS/AVVPlayer-MARVIN/AVVPlayerConfig/AVVEndscreen/AVVEndscreenLayerDefault.swift",
-      "line": 210,
+      "line": 211,
       "symbol": "AVVEndscreenLayerDefault.collectionView(_:layout:sizeForItemAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/andreas.becher/Documents/MobileApps/iOS/AVVPlayer-MARVIN-iOS/AVVPlayer-MARVIN/AVVPlayerConfig/AVVEndscreen/AVVEndscreenLayerDefault.swift",
-      "line": 218,
+      "line": 219,
       "symbol": "AVVEndscreenLayerDefault.collectionView(_:cellForItemAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/andreas.becher/Documents/MobileApps/iOS/AVVPlayer-MARVIN-iOS/AVVPlayer-MARVIN/AVVPlayerConfig/AVVEndscreen/AVVEndscreenLayerDefault.swift",
-      "line": 231,
+      "line": 232,
       "symbol": "AVVEndscreenLayerDefault.collectionView(_:layout:minimumInteritemSpacingForSectionAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/andreas.becher/Documents/MobileApps/iOS/AVVPlayer-MARVIN-iOS/AVVPlayer-MARVIN/AVVPlayerConfig/AVVEndscreen/AVVEndscreenLayerDefault.swift",
-      "line": 235,
+      "line": 236,
       "symbol": "AVVEndscreenLayerDefault.collectionView(_:layout:minimumLineSpacingForSectionAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/andreas.becher/Documents/MobileApps/iOS/AVVPlayer-MARVIN-iOS/AVVPlayer-MARVIN/AVVPlayerConfig/AVVEndscreen/AVVEndscreenLayerDefault.swift",
-      "line": 239,
+      "line": 240,
       "symbol": "AVVEndscreenLayerDefault.numberOfSections(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/andreas.becher/Documents/MobileApps/iOS/AVVPlayer-MARVIN-iOS/AVVPlayer-MARVIN/AVVPlayerConfig/AVVEndscreen/AVVEndscreenLayerDefault.swift",
-      "line": 243,
+      "line": 244,
       "symbol": "AVVEndscreenLayerDefault.collectionView(_:didSelectItemAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
