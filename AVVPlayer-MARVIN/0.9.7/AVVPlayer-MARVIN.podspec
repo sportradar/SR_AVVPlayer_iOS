@@ -23,5 +23,6 @@ s.dependency 'SwiftyXMLParser', '5.0.0'
 s.dependency 'google-cast-sdk', '4.4.7'
 s.dependency 'SDWebImage', '5.0.4'
 s.dependency 'GoogleAds-IMA-iOS-SDK', '3.11.3'
+s.dependency 'Protobuf', '3.11.4'
 
 end
