@@ -3,6 +3,15 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.11 (@2020-05-29)
+
+- AVVPlayerControlLayerDefault: hides TimeLabels, Option Buttons and ProgressSlider on AVVSizeClass.SmartType.thumb sizeClass of AVVPlayer 
+- AVVPlayerControlLayerDefault: adds Promotion Button (shows up as soon as one feature has access denied flag and isPremium == true), triggers feature layer
+
+- fixes presentation of Presentation AVVPlayer on AppDelegate Window orientation restriction
+
+------
+
 ## v0.9.10 (@2020-05-22)
 
 - adds custom player messages
