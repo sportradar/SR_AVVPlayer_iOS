@@ -3,6 +3,18 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.12 (@2020-06-05)
+
+- adds Watermark
+
+- renames AVVLayerTypes
+
+- AVVChromecast improvements/fixes
+- fixes release issue of AVVPlayer
+- fixes inline mode rotation issue (iPad)
+
+------
+
 ## v0.9.11 (@2020-05-29)
 
 - AVVPlayerControlLayerDefault: hides TimeLabels, Option Buttons and ProgressSlider on AVVSizeClass.SmartType.thumb sizeClass of AVVPlayer 
