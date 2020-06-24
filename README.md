@@ -3,6 +3,18 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.13 (@2020-06-24)
+
+- new licence validation process (adds "domain" to AVVPlayerSetup for OTT customer)
+- adds countdown view to Default Preview Layer
+
+- moves AVVMetaData to AVVPlayerConfig (AVVPlayerConfig.MetaData)
+- moves AVVPlayerConfig.autoplay  to AVVPlaybackOptions.autoplay
+- adds scheduledDate to AVVPlayerConfig.status
+- fixes AVVMediaSession issue (crash on access of streamdata)
+
+------
+
 ## v0.9.12 (@2020-06-05)
 
 - adds Watermark
