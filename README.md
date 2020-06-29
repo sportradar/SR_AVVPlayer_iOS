@@ -3,6 +3,13 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.14 (@2020-06-29)
+
+- renames Framework/Module from AVVPlayer to SRAVVPlayer
+- deploys SRAVVPlayer as xcframework
+
+------
+
 ## v0.9.13 (@2020-06-24)
 
 - new licence validation process (adds "domain" to AVVPlayerSetup for OTT customer)

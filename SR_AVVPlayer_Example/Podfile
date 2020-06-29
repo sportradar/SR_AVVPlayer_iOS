@@ -7,5 +7,5 @@ use_frameworks!
 target 'SR_AVVPlayer_Example' do
 
 #ImageCache
-pod 'AVVPlayer-MARVIN', '0.9.9'
+pod 'AVVPlayer-MARVIN', '0.9.14'
 end

@@ -3,7 +3,7 @@ import RxSwift
 import GoogleCast
 import AVKit
 import MediaPlayer
-import AVVPlayer
+import SRAVVPlayer
 
 /**  if you want to provide your own player control overlay it is recommended to use AVVPlayerControlBinding to bind your custom views to AVVPlayer
     once your controls are binded, they will be updated automatically according to AVVPlayer's state and events

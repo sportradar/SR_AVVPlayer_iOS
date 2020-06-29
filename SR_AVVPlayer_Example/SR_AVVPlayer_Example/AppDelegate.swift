@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AVVPlayer
+import SRAVVPlayer
 
 
 @UIApplicationMain

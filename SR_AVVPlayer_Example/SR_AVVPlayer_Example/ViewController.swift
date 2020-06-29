@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AVVPlayer
+import SRAVVPlayer
 
 class ViewController: UIViewController {
     
