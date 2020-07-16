@@ -3,10 +3,17 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.15 (@2020-07-16)
+
+- refactors Chromecast process
+- implements heartbeat validation error on http 200 response
+
+------
+
 ## v0.9.14 (@2020-06-29)
 
 - renames Framework/Module from AVVPlayer to SRAVVPlayer
-- deploys SRAVVPlayer as xcframework
+- deploys SRAVVPlayer as xcframework (requires cocoapods 1.9)
 
 ------
 
