@@ -16,7 +16,7 @@ s.ios.deployment_target  = '10.0'
 s.tvos.deployment_target  = '11.0'
 s.libraries = 'z'
 s.static_framework = true
-s.vendored_frameworks  = 'AVVPlayer-MARVIN-0.9.15/SRAVVPlayer.xcframework'
+s.vendored_frameworks  = 'AVVPlayer-MARVIN-0.9.16/SRAVVPlayer.xcframework'
 s.dependency 'RxSwift', '5.1.1'
 s.dependency 'RxCocoa', '5.1.1'
 s.dependency 'SwiftyXMLParser', '5.0.0'
