@@ -23,7 +23,9 @@ import SRAVVPlayer
 
 public class CustomPlayerOverlay: UIView, AVVPlayerControlLayer
 {
-    public var playerSizeClass: AVVSizeClass = AVVSizeClass(size: .zero)
+    public var playerConfig: AVVPlayerConfig!
+    
+    public var playerSizeClass: AVVSizeClass = .init(size: .zero)
     
     public var relatedPlayer: AVVPlayer!
     
@@ -221,8 +223,8 @@ extension CustomPlayerOverlay {
 
 // MARK: AVVMultistateLabelDelegate - OutputChannel
 extension CustomPlayerOverlay : AVVMultistateLabelDelegate {
-    public func multiState(didChangeTo state: AVVMediaSessionOutputChannel) {
-        if case AVVMediaSessionOutputChannel.avPlayer = state {
+    public func multiState(didChangeTo state: AVVMediaPlaybackRoute) {
+        if case AVVMediaPlaybackRoute.avPlayer = state {
             UIView.animate(withDuration: 0.33, animations: {
                 self.contentView.backgroundColor = UIColor.black.withAlphaComponent(0.3)
             })

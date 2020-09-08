@@ -39,27 +39,34 @@ class ViewController: UIViewController {
         AVVPlayerBuilder.shared.add(controlOverlay: CustomPlayerOverlay.self, for: 1)
         
         // --> force player error
-        let config = AVVPlayerConfig(streamUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")
+        //let config = AVVPlayerConfig(streamUrl: "https://clips.vorwaerts-gmbh.de/big_buck_p4")
         
         //inline Player settings --> autoLandscapeFullscreen forces the player to change to fullscreen if device is rotated to landscape
         //autoLandscapeFullscreen only for iphone not for ipad
         //autoLandscapeFullscreen should be set to false if the App supports portait and landscape orientation
-        let settings = AVVPlayer.ModeSettings.Inline(autoLandscapeFullscreen: UIDevice.current.userInterfaceIdiom == .phone,
+        let settings = AVVPlayer.ModeSettings.Inline(autoLandscapeFullscreen: true,//UIDevice.current.userInterfaceIdiom == .phone,
                                                      containerView: playerContainer,
                                                      appWindow: UIApplication.shared.keyWindow)
         
         //external Player config
-//        let config = "https://onefootball.spott2.sportradar.com/api/v2/content/76088/player-setting"
-        player = AVVPlayerBuilder.shared.createInlinePlayer(config: config, settings: settings)
+        let config = "https://unison.spott2.sportradar.com/api/v2/content/137895/player-setting?autoplay=true&languageIsoCode=en&enableProgressBar=true&enableTime=true&enableSeekBehind=true"
+        let source = "https://wowzaec2demo.streamlock.net/vod-multitrack/_definst_/smil:ElephantsDream/elephantsdream2.smil/playlist.m3u"
+        let myRotationRule = MyRotationRule()
+        player = AVVPlayerBuilder.shared.createInlinePlayer(config: config,
+                                                            settings: settings)
         _ = player?.add(self) // for observing player events
         
         // if you want to provide your own error/preview/ overlay implement AVVPlayerCustomLayerDelegate
         //player?.customLayerDelegate = self
         
-        player?.configDelegate = self //if external config is used, you can manipulate it bevor AVVPlayer is processing the config
-        
+        player?.configDelegate = self //if external config is used, you can manipulate it before AVVPlayer is processing the config
         //starts processing current player config
         self.player?.start()
+    }
+    
+    override var shouldAutorotate: Bool
+    {
+        false
     }
     
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask
@@ -84,7 +91,8 @@ extension ViewController : AVVPlayerConfigDelegate
         newConfig.playerControlsScheme.seekBehindButtonEnabled = true
         newConfig.playerControlsScheme.seekButtonSeconds = 20
         // --> set autoplay
-        newConfig.autoplay = false // starts video immediately after pre-processing
+        newConfig.playbackOptions.autoplay = false // starts video immediately after pre-processing
+        newConfig.advertisement.enabled = false
         return newConfig
     }
 }
@@ -115,3 +123,13 @@ extension ViewController : AVVMediaSessionObserver
     }
 }
 
+
+
+class MyRotationRule : AVVPlayerRotationRule
+{
+    var counter : Float = 0
+    func execute() -> Bool {
+        let yourCondition = false
+        return yourCondition
+    }
+}
