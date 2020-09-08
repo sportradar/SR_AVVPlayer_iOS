@@ -2,6 +2,23 @@ AVVPlayer-MARVIN-iOS
 ===================
 #  Changelog
 ------
+## v0.9.16 (@2020-09-08)
+
+- supports tvOS
+
+- refactors AVVMediaSession (Decouple Cast SDK)
+
+Dependencies: 
+- SDWebImage v5.8.3 (from v5.8.1)
+- RxSwift v5.1.1
+- RxCocoa v5.1.1
+[iOS Only]:
+- GoogleAds-IMA-iOS-SDK v3.11.4
+- google-cast-sdk v4.4.7
+- SwiftyXMLParser v5.0.0
+- Protobuf v3.12.0
+
+------
 
 ## v0.9.15 (@2020-07-16)
 
