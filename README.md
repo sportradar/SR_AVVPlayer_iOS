@@ -5,9 +5,9 @@ AVVPlayer-MARVIN-iOS
 
 ## v0.9.17 (@2020-10-19)
 
-- adds PictureInPicture Mode to iOS
+- adds PictureInPicture Mode to iOS (defaultEnabled = true, configure in AVVPlayerConfig.isPicturInPictureEnabled )
 
-- changes in Chromecast Setup for iOS 14
+- changes in Chromecast Setup for iOS 14 (Check Docs, Info.plist file needs to be modified)
 - changes progress slider for HLS livestream (sets liveoffset label to "00:00" if  offset <= 10)
 
 - fixes/refactoring heartbeat (switch between channels)
