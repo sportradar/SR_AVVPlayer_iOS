@@ -2,6 +2,33 @@ AVVPlayer-MARVIN-iOS
 ===================
 #  Changelog
 ------
+
+## v0.9.17 (@2020-10-19)
+
+- adds PictureInPicture Mode to iOS
+
+- changes in Chromecast Setup for iOS 14
+- changes progress slider for HLS livestream (sets liveoffset label to "00:00" if  offset <= 10)
+
+- fixes/refactoring heartbeat (switch between channels)
+- fixes "casting" overlay on tvOS (when startet on real device)
+- removes restore Button ("try again") after heartbeat validation error on heartbeat type .validateOnly --> no restoring available --> reset config and restart player
+
+
+Dependencies: 
+- SDWebImage v5.9.3 (from v5.8.3)
+- RxSwift v5.1.1
+- RxCocoa v5.1.1
+- Bitmovin Analytics v1.15.0 (from v1.10.1)
+
+[iOS Only]:
+- GoogleAds-IMA-iOS-SDK v3.11.4
+- google-cast-sdk v4.5.1 (from v4.4.7)
+- SwiftyXMLParser v5.0.0
+- Protobuf v3.13.0  (from v3.12.0)
+
+------
+
 ## v0.9.16 (@2020-09-08)
 
 - supports tvOS
