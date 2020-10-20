@@ -49,10 +49,9 @@ class ViewController: UIViewController {
                                                      appWindow: UIApplication.shared.keyWindow)
         
         //external Player config
-        let config = "https://unison.spott2.sportradar.com/api/v2/content/137895/player-setting?autoplay=true&languageIsoCode=en&enableProgressBar=true&enableTime=true&enableSeekBehind=true"
-        let source = "https://wowzaec2demo.streamlock.net/vod-multitrack/_definst_/smil:ElephantsDream/elephantsdream2.smil/playlist.m3u"
-        let myRotationRule = MyRotationRule()
-        player = AVVPlayerBuilder.shared.createInlinePlayer(config: config,
+        let source = "YOUR OTT CONFIG URL"
+        let source1 = AVVPlayerConfig(streamUrl:"https://wowzaec2demo.streamlock.net/vod-multitrack/_definst_/smil:ElephantsDream/elephantsdream2.smil/playlist.m3u")
+        player = AVVPlayerBuilder.shared.createInlinePlayer(config: source1,
                                                             settings: settings)
         _ = player?.add(self) // for observing player events
         
@@ -110,6 +109,7 @@ extension ViewController : AVVPlayerObserver
     func avvPlayer(_ player: AVVPlayer, didFailWith error: AVVError) {
         //error callback
     }
+    
 }
 
 extension ViewController : AVVMediaSessionObserver
@@ -120,16 +120,5 @@ extension ViewController : AVVMediaSessionObserver
     
     func willClose(_ mediaSession: AVVMediaSession) {
         //called when media Session will be closed
-    }
-}
-
-
-
-class MyRotationRule : AVVPlayerRotationRule
-{
-    var counter : Float = 0
-    func execute() -> Bool {
-        let yourCondition = false
-        return yourCondition
     }
 }

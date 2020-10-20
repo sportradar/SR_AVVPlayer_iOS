@@ -25,7 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.backgroundColor = UIColor.white
         
         //setup Video Player Framework (license validation)
-        let playerSetup = AVVPlayerSetup(domain: URL(string:"ott.onair.events"), licenseKey: "599089d5-40f6-4777-9ec5-8d6075f58beb", chromeCastAppId: "2D8999A3")
+        let playerSetup = AVVPlayerSetup(domain: nil, //YOUR OTT DOMAIN
+                                         licenseKey: YOUR_LICENCE_KEY,
+                                         chromeCastAppId: "") //Chromecast Receiver App ID
         AVVPlayer.setup(playerSetup) { (avvError) in
             print("AVVPlayerSetup -> error: \(avvError.debugDescription)")
             if avvError == nil

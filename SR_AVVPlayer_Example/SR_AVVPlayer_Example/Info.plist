@@ -22,6 +22,10 @@
 	<true/>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>$(PRODUCT_NAME) uses bluetooth access to scan for nearby Cast devices.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>Launchscreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

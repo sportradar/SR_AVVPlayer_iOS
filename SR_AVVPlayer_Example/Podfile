@@ -5,12 +5,12 @@ target 'SR_AVVPlayer_Example' do
     platform :ios, '11.0'
     use_frameworks!
 
-    pod 'AVVPlayer-MARVIN', '0.9.16'
+    pod 'AVVPlayer-MARVIN', '0.9.17'
 end
 
 target 'SR_AVVPlayer_Example_tvOS' do
     platform :tvos, '11.0'
     use_frameworks!
 
-    pod 'AVVPlayer-MARVIN', '0.9.16'
+    pod 'AVVPlayer-MARVIN', '0.9.17'
 end

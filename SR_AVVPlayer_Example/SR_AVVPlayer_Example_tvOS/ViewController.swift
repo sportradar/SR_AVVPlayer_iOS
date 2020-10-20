@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     var presentationButton = UIButton(type: .system)
     
     
-    let config = "https://unison.spott2.sportradar.com/api/v2/content/137895/player-setting?autoplay=true&languageIsoCode=en&enableProgressBar=true&enableTime=true&enableSeekBehind=true"
-    let source = "https://wowzaec2demo.streamlock.net/vod-multitrack/_definst_/smil:ElephantsDream/elephantsdream2.smil/playlist.m3u"
+    let source = "YOUR OTT CONFIG URL"
+    let source1 = AVVPlayerConfig(streamUrl:"https://wowzaec2demo.streamlock.net/vod-multitrack/_definst_/smil:ElephantsDream/elephantsdream2.smil/playlist.m3u")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,11 +50,11 @@ class ViewController: UIViewController {
     @objc func actionButtonClicked(sender : UIButton) {
         let closure = {
             if sender == self.inlineButton {
-                self.startInlinePlayer(config: self.config)
+                self.startInlinePlayer(config: self.source1)
                 return
             }
             
-            self.startPresentationPlayer(config: self.config)
+            self.startPresentationPlayer(config: self.source1)
         }
         
         if player == nil {
@@ -72,7 +72,7 @@ class ViewController: UIViewController {
     private func startPresentationPlayer(config : AVVPlayerConfigConvertible) {
         print("start presentation")
         player = AVVPlayerBuilder.shared.createPresentationPlayer(config: config, presenter: self)
-      
+        player.add(self)
         player.configDelegate = self
         player.start()
     }
@@ -85,6 +85,7 @@ class ViewController: UIViewController {
         let settings = AVVPlayer.ModeSettings.Inline(autoLandscapeFullscreen: true, containerView: playerContainer)
         player = AVVPlayerBuilder.shared.createInlinePlayer(config: config, settings: settings)
         player.configDelegate = self
+        player.add(self)
         player.start()
     }
 
@@ -109,6 +110,13 @@ class ViewController: UIViewController {
         self.presentationButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         self.presentationButton.topAnchor.constraint(equalTo: self.inlineButton.bottomAnchor, constant: 20).isActive = true
         self.presentationButton.heightAnchor.constraint(equalToConstant: 100).isActive = true
+    }
+}
+
+extension ViewController : AVVPlayerObserver
+{
+    func avvPlayer(didReleasePlayerMode player: AVVPlayer) {
+        print("presentation did Close")
     }
 }
 
