@@ -3,6 +3,15 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.18 (@2020-12-09)
+
+- fixes control layer issue in fullscreen (iOS14.2)
+
+Dependencies: 
+[iOS Only]:
+- Protobuf v3.14.0  (from v3.13.0)
+
+------
 ## v0.9.17 (@2020-10-19)
 
 - adds PictureInPicture Mode to iOS (defaultEnabled = true, configure in AVVPlayerConfig.isPicturInPictureEnabled )
