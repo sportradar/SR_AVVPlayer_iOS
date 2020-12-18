@@ -3,6 +3,14 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.19 (@2020-12-18)
+
+- imcreases touch area of AVVSlider in Default Control Layer
+- fixes presentation of cast dialog when clicking on chromecast button while player is in fullscreen
+- fixes chromecast issues for OTT customers
+
+------
+
 ## v0.9.18 (@2020-12-09)
 
 - fixes control layer issue in fullscreen (iOS14.2)
