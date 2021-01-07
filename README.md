@@ -5,9 +5,9 @@ AVVPlayer-MARVIN-iOS
 
 ## v0.9.19 (@2020-12-18)
 
-- imcreases touch area of AVVSlider in Default Control Layer
+- increases touch area of AVVSlider in Default Control Layer
 - fixes presentation of cast dialog when clicking on chromecast button while player is in fullscreen
-- fixes chromecast issues for OTT customers
+- fixes chromecast issues for OTT customers (check Sportradar OTT implementation guide)
 
 ------
 
