@@ -3,6 +3,17 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.20 (@2021-01-18)
+
+[iOS Only]:
+- adds closed captions (needs to be configured in AVVPlayer config, for OTT usage in external player config), currently no support for captions in .m3u8 playlist files
+- adds selection of Audio Tracks to AVVPlayer's PUBLIC API
+
+- fixes issue on inline player after playback is finished (transition snapshot)
+- fixes loading indicator on livestreams
+
+------
+
 ## v0.9.19 (@2020-12-18)
 
 - increases touch area of AVVSlider in Default Control Layer
