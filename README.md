@@ -3,6 +3,33 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.21 (@2021-03-01)
+
+- adds backup stream functionality
+- adds AVVPlayerObserver.avvPlayer(player : AVVPlayer, mediaSessionIsReadyToPlay : AVVMediaSession) --> playback channel is connected, player can receive control signals (e.g.: seek)
+- adds custom fonts for default overlays ([Custom Fonts](./10-custom-fonts.html) )
+- adds error icon to default AVVDefaultErrorLayer
+- adds AVVAnalytics.track(error:AVVError), AVVPlayer passes errors to AVVAnalytics implementations
+- adds additional technical error descriptions
+- adds AVVMediaPlaybackChannelAVPlayerControlCenter, current playback is now shown and controlable in iOS Control Center
+   can be disabled in AVVPlayerControlsConfig.isRemoteControlCenterEnabled (AVVPlayerConfig.playerControlsConfig)
+- adds bind(sliderSeekPositionLabel: UILabel) to AVVPlayerControlBinding
+    if you are using a custom control overlay you should bind that label to show the sliders current seek position, label is visible on slider touchDown and hidden when touchDown ends
+- adds startPositionVOD to AVVPlaybackOptions (when set, player starts video at configured position)
+
+- changes UX of AVVDefaultErrorLayer
+- renames AVVPlayerControlsScheme to AVVPlayerControlsConfig
+- refactors seek behaviour of AVVPlayer
+    video is no longer paused on touchDown of Slider, seek command to player is only sent on touchDown end, seek experience is smoother
+
+- fixes issues when replacing player item during initialization of current player item (e.g. :  PictureInPicture, MediaSession)
+- fixes chromecast media updates are only received when request is performed without error (also when chromecast is already connected) 
+- fixes issue with autoLandscapeFullscreen is set to false on iPhone (enables portrait and landscape now with autoLandscapeFullscreen = false)
+- fixes release of AVVMediaSession when heartbeat is active
+- fixes Chromecast updates when joining existing cast session
+
+------
+
 ## v0.9.20 (@2021-01-18)
 
 [iOS Only]:
