@@ -7,7 +7,7 @@ AVVPlayer-MARVIN-iOS
 
 - adds backup stream functionality
 - adds AVVPlayerObserver.avvPlayer(player : AVVPlayer, mediaSessionIsReadyToPlay : AVVMediaSession) --> playback channel is connected, player can receive control signals (e.g.: seek)
-- adds custom fonts for default overlays ([Custom Fonts](./10-custom-fonts.html) )
+- adds custom fonts for default overlays (checkout guide for custom fonts in docs)
 - adds error icon to default AVVDefaultErrorLayer
 - adds AVVAnalytics.track(error:AVVError), AVVPlayer passes errors to AVVAnalytics implementations
 - adds additional technical error descriptions
