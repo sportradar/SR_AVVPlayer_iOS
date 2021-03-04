@@ -3,6 +3,27 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.22 (@2021-03-04)
+
+- adds usage of device language to AVVAdvertisementProviderIMA
+- considers startPositionVOD on replay selection in AVVEndscreen
+
+- fixes sessionReachedEnd not called for mp4 videos
+- fixes width of sliderSeekPositionLabel in AVVPlayerControlLayerDefault
+
+Dependencies: 
+- SDWebImage v5.10.4 (from v5.9.3)
+- RxSwift v6.1.0 (from v5.1.1)
+- RxCocoa v6.1.0 (from v5.1.1)
+
+[iOS Only]:
+- GoogleAds-IMA-iOS-SDK v3.14.1 (from v3.11.4)
+- google-cast-sdk v4.5.1
+- SwiftyXMLParser v5.0.0
+- Protobuf v3.13.0
+
+------
+
 ## v0.9.21 (@2021-03-01)
 
 - adds backup stream functionality
