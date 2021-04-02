@@ -3,6 +3,25 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.23 (@2021-04-02)
+
+- adds resolution to AVVMediaPlaybackStreamData
+- adds Track Progress feature and AVVResumeOptionsLayerDefault
+- adds backroundImage to AVVPlayerConfig.MetaData
+
+Dependencies: 
+- SDWebImage v5.11.0 (from v5.10.4)
+- RxSwift v6.1.0
+- RxCocoa v6.1.0
+
+[iOS Only]:
+- GoogleAds-IMA-iOS-SDK v3.14.1
+- google-cast-sdk v4.5.1
+- SwiftyXMLParser v5.0.0
+- Protobuf v3.13.0
+
+------
+
 ## v0.9.22 (@2021-03-04)
 
 - adds usage of device language to AVVAdvertisementProviderIMA
