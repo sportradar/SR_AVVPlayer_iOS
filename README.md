@@ -3,6 +3,33 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.24 (@2021-06-04)
+
+- adds VOD2LIVE support
+- adds support for BuyDRM
+- adds support for "first wins" session handling
+
+- changes UIColor extension method init?(hexString hex: String) from "public" to "internal"
+- changes in AVVAnalytics
+    - renames AVVAnalyticsConfig to AVVAnalyticsProviderConfig
+    - AVVAnalyticsConfig becomes a top level configuration class, adds analyitcs enabled flag, default value is false
+
+- chromecast fixes
+- fixes visibility of countdown view in AVVDefaultPreviewLayer
+
+Dependencies: 
+- SDWebImage v5.11.1 (from v5.11.0)
+- RxSwift v6.2.0 (from v6.1.0)
+- RxCocoa v6.2.0 (from v6.1.0)
+
+[iOS Only]:
+- GoogleAds-IMA-iOS-SDK v3.14.3 (from v3.14.1)
+- google-cast-sdk v4.6.1 (from v4.5.1)
+- SwiftyXMLParser v5.3.0 (from v5.0.0)
+- Protobuf v3.17.0 (from v3.13.0)
+
+------
+
 ## v0.9.23 (@2021-04-02)
 
 - adds resolution to AVVMediaPlaybackStreamData
