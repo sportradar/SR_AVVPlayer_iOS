@@ -12,7 +12,7 @@ s.framework = 'SystemConfiguration','MobileCoreServices'
 s.source = { :http => 'https://github.com/sportradar/SR_AVVPlayer_iOS/raw/master/Framework/AVVPlayer-MARVIN-iOS_tvOS-0.9.24_62.zip'}
 
 
-s.ios.deployment_target  = '10.0'
+s.ios.deployment_target  = '11.0'
 s.tvos.deployment_target  = '11.0'
 s.libraries = 'z'
 s.static_framework = true
