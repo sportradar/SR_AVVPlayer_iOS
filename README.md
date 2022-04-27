@@ -3,6 +3,22 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.25 (@2022-04-27)
+
+- minor stability and performance improvements
+
+Dependencies: 
+- SDWebImage v5.12.5 (from v5.11.1)
+- RxSwift v6.5.0 (from v6.2.0)
+- RxCocoa v6.5.0 (from v6.2.0)
+
+[iOS Only]:
+- google-cast-sdk v4.7.0 (from v4.6.1)
+- SwiftyXMLParser v5.6.0 (from v5.3.0)
+- Protobuf v3.19.4 (from v3.17.0)
+
+------
+
 ## v0.9.24 (@2021-06-04)
 
 - adds VOD2LIVE support
