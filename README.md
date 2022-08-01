@@ -3,6 +3,15 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.26 (@2022-08-01)
+
+- change access level of AVVPlayerWindow to public
+
+- fixes fullscreen issues with Scenes
+
+Dependencies: 
+- SDWebImage v5.13.2 (from v5.12.5)
+
 ## v0.9.25 (@2022-04-27)
 
 - minor stability and performance improvements
