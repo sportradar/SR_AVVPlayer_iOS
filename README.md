@@ -3,6 +3,14 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.27 (@2022-09-05)
+
+- adds close captions / subtitles within m3u8 file (HLS)
+
+- fixes in preview layer default (hide countdown when isLive is true and autoplay is false)
+
+------
+
 ## v0.9.26 (@2022-08-01)
 
 - change access level of AVVPlayerWindow to public
