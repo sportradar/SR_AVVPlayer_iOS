@@ -3,6 +3,12 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.28 (@2022-09-06)
+
+- fixes captions selection when device language != en
+
+------
+
 ## v0.9.27 (@2022-09-05)
 
 - adds close captions / subtitles within m3u8 file (HLS)
