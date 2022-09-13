@@ -7,7 +7,7 @@ AVVPlayer-MARVIN-iOS
 
 - fixes captions selection when device language != en
 
----
+------
 
 ## v0.9.27 (@2022-09-05)
 
