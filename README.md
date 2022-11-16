@@ -8,7 +8,7 @@ AVVPlayer-MARVIN-iOS
 - adds new InlineMode handling for iOS16
 - adds custom streamUrlParams to AVVPlayerConfig
 - changes in RotationRule Handling (if you use custom Rotation Rules check out the docs for Player Rotation, if not nothing needs to be changed)
-- implements AVVAPIRequestHeaderComposer and AVVSessionTokenProvider protocols (may be applicable when using Sportradar OTT, checkout implementation Guide)
+- implements AVVAPIRequestHeaderComposer and AVVSessionTokenProvider protocols (may be applicable when using Sportradar OTT, checkout implementation Guide) !!!CAUTION!!! DO NOT USE CUSTOM AVVAPIRequestHeaderComposer and AVVSessionTokenProvider in this version, NOT STABLE, ISSUE WITH RXSwift when creating Observable in different target (XCFramework and App)
 
 - fixes configuration of custom seek Button interval
 
