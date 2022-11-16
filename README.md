@@ -3,6 +3,20 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.29 (@2022-11-16)
+
+- adds new InlineMode handling for iOS16
+- adds custom streamUrlParams to AVVPlayerConfig
+- changes in RotationRule Handling (if you use custom Rotation Rules check out the docs for Player Rotation, if not nothing needs to be changed)
+- implements AVVAPIRequestHeaderComposer and AVVSessionTokenProvider protocols (may be applicable when using Sportradar OTT, checkout implementation Guide)
+
+- fixes configuration of custom seek Button interval
+
+Dependencies: 
+- SDWebImage v5.14.2 (from v5.13.2)
+
+------
+
 ## v0.9.28 (@2022-09-06)
 
 - fixes captions selection when device language != en
