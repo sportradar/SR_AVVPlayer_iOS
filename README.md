@@ -3,10 +3,30 @@ AVVPlayer-MARVIN-iOS
 #  Changelog
 ------
 
+## v0.9.31 (@2023-08-21)
+
+- compiled with XCode 14.3.1
+
+Dependencies: 
+- SDWebImage v5.14.3 (from v5.11.1)
+- RxSwift v6.6.0 (from v6.5.0)
+- RxCocoa v6.6.0 (from v6.5.0)
+
+[iOS Only]:
+- GoogleAds-IMA-iOS-SDK v3.18.4 (from v3.14.3)
+- google-cast-sdk v4.8.0 (from v4.6.1)
+- SwiftyXMLParser v5.6.0 (from v5.3.0)
+- Protobuf v3.24.1 (from v3.17.0)
+
+s.swift_version = '5.8'
+s.ios.deployment_target  = '13.0'
+s.tvos.deployment_target  = '13.0'
+
+------
+
 ## v0.9.30 (@2022-11-21)
 
 - changes AVVAPIRequestHeaderComposer and AVVSessionTokenProvider protocols from RxSwift to Closures (may be applicable when using Sportradar OTT, checkout implementation Guide)
-- 
 
 ------
 
