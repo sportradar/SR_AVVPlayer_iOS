@@ -6,6 +6,7 @@ AVVPlayer-MARVIN-iOS
 ## v0.9.30 (@2022-11-21)
 
 - changes AVVAPIRequestHeaderComposer and AVVSessionTokenProvider protocols from RxSwift to Closures (may be applicable when using Sportradar OTT, checkout implementation Guide)
+- 
 
 ------
 
