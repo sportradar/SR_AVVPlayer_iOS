@@ -1,0 +1,136 @@
+/*
+  Localizable.strings
+  AVVPlayer-MARVIN
+
+  Created by Michael Krautsieder on 29.04.19.
+  Copyright © 2019 Sportradar. All rights reserved.
+*/
+
+
+
+//----------------------------------------------------------------------------------------
+//ERRORS
+
+//General
+"AVV_ERROR_TITLE" = "Fehler";
+"AVV_INFO_TITLE" = "Info";
+
+//User Descriptions
+"100" = "Konfigurationsdatei konnte nicht geladen werden";
+"101" = "Konfigurationsdatei ist fehlerhaft";
+"102" = "invalid license key";
+"103" = "license key not validated";
+
+"200" = "Streamdetails konnten nicht abgerufen werden.";
+"220" = "Stream konnte nicht generiert werden.";
+
+"500" = "Die Video Session kann nicht gestartet werden";
+"501" = "Die Video Session ist abgelaufen.";
+"502" = "Die Video Session kann nicht gestartet werden";
+"503" = "Die Video Session kann nicht gestartet werden";
+"504" = "Die externe Session kann nicht gestartet werden";
+"505" = "Beim Beenden der Video Session ist ein Fehler aufgetreten";
+
+"600" = "Stream konnte nicht geladen werden, keine gültige Quelle gefunden";
+
+"1000" = "Das Video kann nicht geladen werden.";
+"1001" = "Das Video kann nicht mehr abgespielt werden.";
+"1002" = "Das Video kann nicht geladen werden.";
+"1003" = "Der AirPlay Controller benötigt Internet.";
+"1004" = "Der AirPlay Receiver benötigt Internet.";
+"1005" = "Die App ist nicht berechtigt, Videos abzuspielen.";
+"1006" = "Die Quelldatei kann nicht hinzugefügt werden, weil sie Lücken enthält.";
+"1007" = "Der User ist nicht berechtigt, das Video abzuspielen.";
+"1008" = "Die App ist nicht berechtigt, das Video zu öffnen.";
+"1009" = "Die Quelldatei konnte nicht entschlüsselt werden.";
+"1010" = "Der Decoder für die Quelldatei wurde nicht gefunden.";
+"1011" = "Der Decoder für die Quelldatei ist momentan nicht verfügbar.";
+"1012" = "Die Einstellungen konnten nicht geändert werden, weil das Gerät von einer anderen App gesteuert wird.";
+"1013" = "Der angeforderte Encoder wurde nicht gefunden.";
+"1014" = "Der benötigte Encoder ist momentan nicht verfügbar.";
+"1015" = "Das aktuelle Video unterstützt kein Playback.";
+"1016" = "Die Quelldatei beinhaltet nicht alle nötigen Informationen.";
+"1017" = "Das Video konnte nicht entschlüsselt werden.";
+"1018" = "Die Quelldatei ist in einem falschen Format.";
+"1019" = "The file type doesn't support sample references."; // notwendig? was wäre die Übersetzung?
+"1020" = "Das Videoformat wird nicht unterstützt.";
+"1021" = "Das Gerät kann das Video nicht abspielen.";
+"1022" = "Das Video hat eine ungültige Länge.";
+"1023" = "Das Video hat keine Länge.";
+"1024" = "Das Video hat eine ungültige Startzeit.";
+"1025" = "Der URL Pfad ist ungültig.";
+"1026" = "Eine Quelldatei konnte nicht gelesen werden.";
+"1027" = "Nicht unterstützte Videozusammensetzung.";
+"1028" = "The depth data wasn't properly structured."; // notwendig? was wäre die Übersetzung?
+"1029" = "Video Services sind nicht mehr verfügbar.";
+"1030" = "Es ist kein Bild zu diesem Zeitpunkt im Video.";
+"1031" = "Keine Displays zur Wiedergabe gefunden.";
+"1032" = "Das Video hat keine Quelldatei.";
+"1033" = "Nicht genügend Speicher für das Video vorhanden.";
+"1034" = "The asset attempted to follow a reference that was not allowed."; // notwendig? was wäre die Übersetzung?
+"1035" = "Der HTTP Server ist nicht richtig konfiguriert.";
+"1036" = "Die Daten konnten nicht entschlüsselt werden.";
+"1037" = "Der User forderte unerlaubte Ausgabeeinstellungen.";
+"1038" = "Video konnte nicht erstellt werden.";
+"1040" = "Das Video kann nicht abgespielt werden.";
+
+"1200" = "Bei der Chromecast Übertragung ist ein Fehler aufgetreten";
+"1201" = "Die Chromecast Session konnte nicht gestartet werden";
+"1202" = "Die Chromecast Session ist abgelaufen";
+
+"DEFAULT_ERROR_MESSAGE" = "Bei der Verarbeitung ist ein Fehler aufgetreten.";
+
+//Action Titles
+"ACTION_RETRY" = "Erneut Versuchen";
+
+//----------------------------------------------------------------------------------------
+"CHROMECAST_STOP_CASTING" = "Streaming beenden";
+"CHROMECAST_NOT_CONNECTED" = "Nicht verbunden";
+"CHROMECAST_CASTS_ON" = "Läuft auf";
+"CHROMECAST_AVAILABLE_DEVICES" = "Verfügbare Geräte";
+"CHROMECAST_CONNECTING_DEVICE" = "Verbindung wird hergestellt...";
+"CHROMECAST_CLOSE_CONNECTION" = "Verbindung wird beendet...";
+"CHROMECAST_NO_MEDIA_SELECTED" = "Kein Medium ausgewählt";
+//----------------------------------------------------------------------------------------
+"EXTERNAL_PLAYBACK_CASTS_TO" = "Läuft auf";
+
+
+//----------------------------------------------------------------------------------------
+//PLAYER MESSAGES
+//----------------------------------------------------------------------------------------
+
+"PLAYER_MESSAGE_STREAM_STARTS_SOON" = "Livestream startet in Kürze";
+"PLAYER_MESSAGE_STREAM_ENDED" = "Der Stream ist beendet";
+
+
+"PLAYER_MESSAGE_ALTERNATIVE_AUDIO_TRACKS" = "Alternative Audio Spuren";
+"PLAYER_MESSAGE_CLOSED_CAPTIONS_OPTIONS" = "Untertitel";
+"PLAYER_MESSAGE_CLOSED_CAPTIONS_OPTIONS_DEFAULT_OPTION" = "Aus";
+"PLAYER_MESSAGE_CLOSED_CAPTIONS_OPTIONS_LOADING_OPTION" = "Untertitel werden geladen...";
+"PLAYER_MESSAGE_CLOSED_CAPTIONS_OPTIONS_LOADING_ERROR_OPTION" = "Untertitel konnten nicht geladen werden";
+
+"PLAYER_MESSAGE_NEXT_ITEM_IN" = "Nächstes Video startet in ";
+"PLAYER_MESSAGE_WATCH_AGAIN" = "WATCH AGAIN";
+"PLAYER_MESSAGE_NEXT_ITEM" = "NEXT VIDEO";
+"PLAYER_MESSAGE_RELATED_VIDEOS" = "RELATED VIDEOS";
+"PLAYER_MESSAGE_CANCEL" = "Abbrechen";
+
+"PLAYER_MESSAGE_FEATURE_ACCESS_DENIED" = "Du hast keine Berechtigung für dieses Feature";
+"PLAYER_MESSAGE_FEATURE_PROMOTION" = "PROMO";
+
+"PLAYER_MESSAGE_RESUME_OPTION_TITLE" = "Wo möchtest du einsteigen?";
+"PLAYER_MESSAGE_RESUME_OPTION_FROM_BEGINNING" = "VON ANFANG AN";
+"PLAYER_MESSAGE_RESUME_OPTION_CONTINUE" = "FORTSETZEN";
+"PLAYER_MESSAGE_RESUME_OPTION_LIVE" = "LIVE ANSEHEN";
+
+//----------------------------------------------------------------------------------------
+//Player Controls
+"SEEK_SECONDS" = "Sek";
+
+//----------------------------------------------------------------------------------------
+//Preview Layer
+"Stream starts on" = "Stream startet @";
+"LABEL_DAYS" = "TAGE";
+"LABEL_HOURS" = "STD";
+"LABEL_MINUTES" = "MIN";
+"LABEL_SECONDS" = "SEK";

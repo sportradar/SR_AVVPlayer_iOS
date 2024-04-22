@@ -1,0 +1,211 @@
+/*
+  Localizable.strings
+  AVVPlayer-MARVIN
+
+  Created by Michael Krautsieder on 29.04.19.
+  Copyright © 2019 Sportradar. All rights reserved.
+*/
+
+
+
+//----------------------------------------------------------------------------------------
+//ERRORS
+
+//General
+"AVV_ERROR_TITLE" = "Error";
+"AVV_INFO_TITLE" = "Information";
+
+//User Descriptions
+"100" = "The config file could not be loaded.";
+"101" = "The config file is invalid";
+"102" = "invalid license key";
+"103" = "license key not validated";
+
+"200" = "Stream access API is not loaded.";
+"203" = "Stream access Error";
+"220" = "Stream could not be generated";
+
+"500" = "The Video Session could not be set up";
+"501" = "The Video Session is no longer valid";
+"502" = "The Video Session could not be set up";
+"503" = "The Video Session could not be set up";
+"504" = "The external Video Session could not be set up";
+"505" = "An error occurred while closing the current session";
+
+"600" = "stream could not be loaded, no valid video source found";
+
+"1000" = "The media resource couldn't be loaded.";
+"1001" = "The asset is no longer playable.";
+"1002" = "The media resource couldn't be loaded.";
+"1003" = "The AirPlay controller requires internet to function.";
+"1004" = "The AirPlay receiver requires internet to function.";
+"1005" = "The application is not authorized to play media.";
+"1006" = "The source media can’t be added because it contains gaps.";
+"1007" = "The user is not authorized to play the media.";
+"1008" = "The application is not authorized to open the media.";
+"1009" = "The operation could not be completed because some source media could not be decoded.";
+"1010" = "The decoder for the given media was not found.";
+"1011" = "The appropriate decoder is currently not available.";
+"1012" = "Settings for the device could not be changed because the device is being controlled by another application.";
+"1013" = "The requested encoder was not found.";
+"1014" = "The appropriate encoder is currently not available.";
+"1015" = "The current asset doesn't support playback.";
+"1016" = "The media resource does not contain all of the data required and cannot be loaded.";
+"1017" = "The media couldn't be parsed.";
+"1018" = "The media could not be opened because it is not in a recognized format.";
+"1019" = "The file type doesn't support sample references.";
+"1020" = "The current asset format isn't supported.";
+"1021" = "The media could not be displayed because the iOS device is not capable of playing the content.";
+"1022" = "The source media can’t be added because its duration in the destination is invalid.";
+"1023" = "The source media can’t be added because it has no duration.";
+"1024" = "The source media can’t be added because its start time in the destination is invalid.";
+"1025" = "The path extension of the URL was invalid.";
+"1026" = "The operation could not be completed because some source media could not be read.";
+"1027" = "You attempted to perform a video composition operation that is not supported.";
+"1028" = "The depth data wasn't properly structured.";
+"1029" = "The operation could not be completed because media services became unavailable.";
+"1030" = "There is no image at that time in the media.";
+"1031" = "No compatible external displays were found.";
+"1032" = "The asset has no source track.";
+"1033" = "The operation could not be completed because there is not enough memory to process all of the media.";
+"1034" = "The asset attempted to follow a reference that was not allowed.";
+"1035" = "The HTTP server sending the media resource is not configured as expected.";
+"1036" = "The media data could not be decoded.";
+"1037" = "The user requested unsupported output settings.";
+"1038" = "The video compositor couldn't composite frames.";
+"1040" = "The captured content is unavailable.";
+
+"1200" = "An error occured while casting to chromecast";
+"1201" = "Chromecast Session could not be set up";
+"1202" = "Your chromecast session is expired";
+
+
+//technical Descriptions
+"100_TECHNICAL" = "config not loaded";
+"101_TECHNICAL" = "error from external config";
+"102_TECHNICAL" = "invalid license key";
+"103_TECHNICAL" = "license key not validated";
+
+"200_TECHNICAL" = "streamaccess API not loaded";
+"201_TECHNICAL" = "user not allowed to view stream on multiple devices";
+"202_TECHNICAL" = "user not allowed to view on mobile phone";
+"203_TECHNICAL" = "unknown streamaccess error";
+"204_TECHNICAL" = "Not Found - The requested resource could not be found";
+"205_TECHNICAL" = "Method Not Allowed";
+"206_TECHNICAL" = "Internal Server Error, Service failed due to unexpected error";
+"207_TECHNICAL" = "Bad Request, Missing end-user IP";
+"208_TECHNICAL" = "Not Found, Stream not available for match";
+"209_TECHNICAL" = "Unauthorized, The geo location associated to the IP %s is not authorized for the requested match";
+"210_TECHNICAL" = "StreamAccessInput in player config has wrong input format";
+
+"500_TECHNICAL" = "heartbeat init error";
+"501_TECHNICAL" = "heartbeat validation error";
+"502_TECHNICAL" = "heartbeat init url error";
+"503_TECHNICAL" = "heartbeat validaton url error";
+"504_TECHNICAL" = "external session init error";
+"505_TECHNICAL" = "heartbeat cancel error";
+
+"600_TECHNICAL" = "stream could not be loaded, no valid video source found";
+"700_TECHNICAL" = "DRM key request failed";
+
+"1000_TECHNICAL" = "media session preload AVURLAsset failed";
+"1001_TECHNICAL" = "media session is no longer playable";
+"1002_TECHNICAL" = "media session failed to parse";
+"1003_TECHNICAL" = "media session air play controller requires internet";
+"1004_TECHNICAL" = "media session air play receiver requires internet";
+"1005_TECHNICAL" = "media session application is not authorized";
+"1006_TECHNICAL" = "media session composition track segments not contiguous";
+"1007_TECHNICAL" = "media session content is not authorized";
+"1008_TECHNICAL" = "media session content is protected";
+"1009_TECHNICAL" = "media session decode failed";
+"1010_TECHNICAL" = "media session decoder not found";
+"1011_TECHNICAL" = "media session decoder temporarily unavailable";
+"1012_TECHNICAL" = "media session device locked for configuration by another process";
+"1013_TECHNICAL" = "media session encoder not found";
+"1014_TECHNICAL" = "media session encoder temporarily unavailable";
+"1015_TECHNICAL" = "media session external playback not supported for asset";
+"1016_TECHNICAL" = "media session failed to load media data";
+"1017_TECHNICAL" = "media session file failed to parse";
+"1018_TECHNICAL" = "media session file format not recognized";
+"1019_TECHNICAL" = "media session file type does not support sample references";
+"1020_TECHNICAL" = "media session format unsupported";
+"1021_TECHNICAL" = "media session incompatible asset";
+"1022_TECHNICAL" = "media session invalid composition track segment duration";
+"1023_TECHNICAL" = "media session invalid composition track segment source duration";
+"1024_TECHNICAL" = "media session invalid composition track segment source start time";
+"1025_TECHNICAL" = "media session invalid output url path extension";
+"1026_TECHNICAL" = "media session invalid source media";
+"1027_TECHNICAL" = "media session invalid video composition";
+"1028_TECHNICAL" = "media session malformed depth";
+"1029_TECHNICAL" = "media session media services were reset";
+"1030_TECHNICAL" = "media session no image at time";
+"1031_TECHNICAL" = "media session no compatible alternates for external display";
+"1032_TECHNICAL" = "media session no source track";
+"1033_TECHNICAL" = "media session out of memory";
+"1034_TECHNICAL" = "media session reference forbidden by reference policy";
+"1035_TECHNICAL" = "media session server incorrectly configured";
+"1036_TECHNICAL" = "media session undecodable media data";
+"1037_TECHNICAL" = "media session unsupported output settings";
+"1038_TECHNICAL" = "media session video compositor failed";
+"1039_TECHNICAL" = "media session failed to load player resource";
+
+"1200_TECHNICAL" = "chromecast error";
+
+"DEFAULT_ERROR_MESSAGE" = "An Error occurred while processing the requested content";
+
+//----------------------------------------------------------------------------------------------
+"INTERNAL_INVALID_STREAMURLPROVIDER_INPUT_TECHNICAL" = "StreamUrlProvider input in player config has wrong format";
+"INTERNAL_STREAMACCESS_PARSE_ERROR_TECHNICAL" = "Streamaccess parser error";
+
+//Action Titles
+"ACTION_RETRY" = "Try Again";
+
+//----------------------------------------------------------------------------------------
+"CHROMECAST_STOP_CASTING" = "Stop Casting";
+"CHROMECAST_NOT_CONNECTED" = "Not Connected";
+"CHROMECAST_CASTS_ON" = "Casting to";
+"CHROMECAST_AVAILABLE_DEVICES" = "Devices Found";
+"CHROMECAST_CONNECTING_DEVICE" = "Connecting Device...";
+"CHROMECAST_CLOSE_CONNECTION" = "Stops Casting...";
+"CHROMECAST_NO_MEDIA_SELECTED" = "No media selected";
+//----------------------------------------------------------------------------------------
+"EXTERNAL_PLAYBACK_CASTS_TO" = "Casting to ";
+
+//----------------------------------------------------------------------------------------
+//PLAYER MESSAGES
+//----------------------------------------------------------------------------------------
+
+"PLAYER_MESSAGE_STREAM_STARTS_SOON" = "Live stream will start shortly";
+"PLAYER_MESSAGE_STREAM_ENDED" = "Stream has ended";
+
+"PLAYER_MESSAGE_ALTERNATIVE_AUDIO_TRACKS" = "Alternative Audio Tracks";
+"PLAYER_MESSAGE_CLOSED_CAPTIONS_OPTIONS" = "Subtitles";
+"PLAYER_MESSAGE_CLOSED_CAPTIONS_OPTIONS_DEFAULT_OPTION" = "Off";
+"PLAYER_MESSAGE_CLOSED_CAPTIONS_OPTIONS_LOADING_OPTION" = "loading captions...";
+"PLAYER_MESSAGE_CLOSED_CAPTIONS_OPTIONS_LOADING_ERROR_OPTION" = "captions could not be loaded";
+
+"PLAYER_MESSAGE_NEXT_ITEM_IN" = "Next video starts in ";
+"PLAYER_MESSAGE_WATCH_AGAIN" = "WATCH AGAIN";
+"PLAYER_MESSAGE_NEXT_ITEM" = "NEXT VIDEO";
+"PLAYER_MESSAGE_RELATED_VIDEOS" = "RELATED VIDEOS";
+"PLAYER_MESSAGE_CANCEL" = "Cancel";
+
+"PLAYER_MESSAGE_FEATURE_ACCESS_DENIED" = "You do not have access to this feature";
+"PLAYER_MESSAGE_FEATURE_PROMOTION" = "PROMO";
+
+"PLAYER_MESSAGE_RESUME_OPTION_TITLE" = "Where do you want to start watching?";
+"PLAYER_MESSAGE_RESUME_OPTION_FROM_BEGINNING" = "FROM BEGINNING";
+"PLAYER_MESSAGE_RESUME_OPTION_CONTINUE" = "WHERE YOU LEFT";
+"PLAYER_MESSAGE_RESUME_OPTION_LIVE" = "GO TO LIVE";
+
+//----------------------------------------------------------------------------------------
+//Player Controls
+"SEEK_SECONDS" = "sec";
+
+//----------------------------------------------------------------------------------------
+//Preview Layer
+"Stream starts on" = "Stream starts @";
+"LABEL_DAYS" = "DAYS";
+"LABEL_HOURS" = "HRS";
+"LABEL_MINUTES" = "MIN";
+"LABEL_SECONDS" = "SEC";
