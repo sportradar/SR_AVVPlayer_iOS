@@ -50,7 +50,7 @@ Dependencies:
 
 ---
 
-## v0.9.27 (@2022-09-05)
+## v0.9.27 (@2022-09-05) [last supported version]
 
 - adds close captions / subtitles within m3u8 file (HLS)
 
@@ -58,7 +58,7 @@ Dependencies:
 
 ------
 
-## v0.9.26 (@2022-08-01)
+## v0.9.26 (@2022-08-01) [not longer supported]
 
 - change access level of AVVPlayerWindow to public
 
