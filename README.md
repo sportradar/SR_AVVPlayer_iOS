@@ -2,7 +2,22 @@ AVVPlayer-MARVIN-iOS
 ===================
 #  Changelog
 ------
+## v0.9.40 (@2024-05-24)
 
+- meets privacy manifest requirments
+- adds SPM support
+
+- minimum iOS version support increased to 14.0
+
+Dependencies:
+- GoogleAds-IMA-iOS-SDK v3.22.1
+- SDWebImage v5.19.2
+- RxSwift v6.7.1
+- google-cast-sdk v4.8.1.2
+- SwiftyXMLParser v5.6.0
+- Protobuf v3.27.0
+
+------
 ## v0.9.31 (@2023-08-21)
 
 - compiled with XCode 14.3.1

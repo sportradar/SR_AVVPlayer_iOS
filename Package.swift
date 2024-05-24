@@ -4,8 +4,8 @@
 import PackageDescription
 
 struct PackageMetadata {
-    static let version: String = "0.9.40-beta.1"
-    static let checksum: String = "d939888f60abcba149cce33a1e33649425a70a7c6ef0ae6bb6627190414a4d0a"
+    static let version: String = "0.9.40"
+    static let checksum: String = "2f143f1b833149da41e614d69fd6b1313c516512dacd325af7c32f2540b1435a"
 }
 
 let package = Package(
@@ -36,7 +36,7 @@ let package = Package(
         
             .binaryTarget(
                 name: "SRAVVPlayer_Binary",
-                url: "https://github.com/sportradar/SR_AVVPlayer_iOS/releases/download/\(PackageMetadata.version)/AVVPlayer-MARVIN.zip",
+                url: "https://github.com/sportradar/SR_AVVPlayer_iOS/releases/download/\(PackageMetadata.version)/AVVPlayer-MARVIN_iOS-0.9.40_81_static.zip",
                 checksum: PackageMetadata.checksum
             ),
         

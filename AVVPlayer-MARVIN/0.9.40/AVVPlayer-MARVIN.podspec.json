@@ -1,0 +1,52 @@
+{
+  "name": "AVVPlayer-MARVIN",
+  "module_name": "SRAVVPlayer",
+  "version": "0.9.40",
+  "swift_version": "5.9",
+  "summary": "AVVPlayer-MARVIN",
+  "license": {
+    "type": "Sportradar",
+    "file": "AVVPlayer-MARVIN-0.9.40/LICENSE.txt"
+  },
+  "authors": {
+    "Mobile Development Team": "dev.apps@laola1.at"
+  },
+  "homepage": "https://mdp.sportradar.com",
+  "requires_arc": true,
+  "frameworks": [
+    "SystemConfiguration",
+    "MobileCoreServices"
+  ],
+  "source": {
+    "http": "https://github.com/sportradar/SR_AVVPlayer_iOS/releases/download/0.9.40/AVVPlayer-MARVIN-iOS-0.9.40_81.zip"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "libraries": "z",
+  "static_framework": true,
+  "vendored_frameworks": "AVVPlayer-MARVIN-0.9.40/SRAVVPlayer.xcframework",
+  "dependencies": {
+    "RxSwift": [
+      "6.7.1"
+    ],
+    "RxCocoa": [
+      "6.7.1"
+    ],
+    "SwiftyXMLParser": [
+      "5.6.0"
+    ],
+    "SDWebImage": [
+      "5.19.2"
+    ],
+    "GoogleAds-IMA-iOS-SDK": [
+      "3.22.1"
+    ],    
+   "google-cast-sdk": [
+      "4.8.1.2"
+   ]
+  },
+  "resources": [
+    "SRAVVPlayer.xcframework/ios-arm64/SRAVVPlayer.framework/PrivacyInfo.xcprivacy"
+  ]
+}
